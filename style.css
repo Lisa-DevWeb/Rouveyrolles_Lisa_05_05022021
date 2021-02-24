@@ -1,3 +1,4 @@
+/* Maquette Desktop */
 /*------------------- Police -------------------*/
 @font-face {
     font-family: 'Raleway';
@@ -14,18 +15,6 @@
 
 /*------------------- Header -------------------*/
 
-header {
-    display: flex;
-    align-items: center;
-}
-
-#Logo {
-    width: 60%;
-}
-
-nav {
-    width: 100%;
-}
 
 nav ul {
     list-style-type: none;
@@ -127,4 +116,6 @@ form span {
     display: flex;
 }
 
+/* Maquette Tablette */
 
+/* Maquette Mobile */
