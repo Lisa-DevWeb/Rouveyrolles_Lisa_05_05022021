@@ -1,0 +1,130 @@
+/*------------------- Police -------------------*/
+@font-face {
+    font-family: 'Raleway';
+    src: url(Raleway-Italic-VariableFont_wght.ttf);
+    src: url(Raleway-VariableFont_wght.ttf) format('truetype');
+    src: url('Raleway-VariableFont_wght.ttf') format('eot');
+}
+
+#bloc_page {
+    font-family: 'Raleway', Arial, serif;
+    width: 80%;
+    margin: auto;
+} 
+
+/*------------------- Header -------------------*/
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+#Logo {
+    width: 60%;
+}
+
+nav {
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header a {
+    text-decoration: none;
+    color: #0e0e0e;
+    font-size: 0.8em;
+}
+
+nav ul li, #Inscrire {
+    padding-left: 25px;
+}
+
+#Inscrire {
+    font-weight: bold;
+    color: #0065FC;
+}
+
+nav a:hover {
+    padding-top: 20px;
+    border-top: 2px solid #0065FC;
+}
+
+/* Mobile */
+
+#Loupe {
+    display: none;
+}
+
+/*Section de recherche*/
+
+h1 {
+    font-size: 1.1em;
+}
+
+h2 {
+    font-size: 0.9em;
+    font-weight: normal;
+}
+
+/*Formulaire*/
+
+form {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+    height: 40px;
+}
+
+form p {
+    width: 100%;
+    height: 90%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+form span {
+    background-color: #f2f2f2;
+    border-radius: 10px 0 0 10px;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-map-marker-alt {
+    font-size: 12px;
+}
+
+.recherche {
+    width: 100%;
+    border: none;
+    border-top: 1px #F2F2F2;
+    border-bottom: 1px solid #F2F2F2;
+    color: rgb(65, 65, 65);
+}
+
+.submit {
+    background-color: #0065FC;
+    border-radius: 0 15px 15px 0;
+    color: white;
+    font-size: 0.8em;
+    width: 60%;
+    border: none;
+}
+
+/* Filtres */
+
+#Filtre {
+    width: 100%;
+    height: 90%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+
