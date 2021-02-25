@@ -162,6 +162,20 @@ form span {
     background-color: #DEEBFF;
 }
 
+
+.fa-info {
+    text-align: center;
+    font-size: 10px;
+    color:  #0065FC;
+    padding: 3px;
+    border: 1px solid rgb(197, 197, 197);
+    border-radius: 50px;
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+}
+
+
 /* Footer */
 
 #Bas {
