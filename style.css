@@ -183,7 +183,7 @@ form span {
 }
 
 .conteneur {
-    width: 60%;
+    width: 50%;
     height: auto;
     padding-left: 20px;
     border: 1px solid  #F2F2F2;
@@ -191,6 +191,8 @@ form span {
     background-color:  #F2F2F2;
     padding-left: 30px;
     padding: 20px;
+    float: left;
+    margin-right: 40px;
 }
 
 .essai {
@@ -198,6 +200,7 @@ form span {
     flex-flow: row wrap;
     width: 100%;
     height: auto;
+    background-color: aquamarine;
 }
 
 .Card {
@@ -224,19 +227,71 @@ form span {
 .Images img {
     object-fit: cover;
     border-radius: 20px 20px 0 0;
-    width: 257px;
+    width: 255px;
     height: 120px;
 } 
 
 .Images2 img {
     object-fit: cover;
     border-radius: 20px 20px 0 0;
-    width: 257px;
+    width: 255px;
     height: 120px;
 }
 
 /* Les plus populaires */
+.conteneur2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 20px;
+    width: 25%;
+    height: auto;
+    border: 1px solid  #F2F2F2;
+    border-radius: 30px;
+    background-color:  #F2F2F2;
+}
 
+.Card2 {
+    display: flex;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 25px;
+    box-shadow: 0px 0px 8px black;
+    padding: 5px;
+    margin: 19px;
+    object-fit: contain;
+    background-color: khaki;
+    width: 70%;
+    height: auto;
+}
+
+.Card2 figcaption {
+    position: relative;
+    top: -5px;
+    left: 15px;
+    padding: -20px;
+    line-height : 1em;
+    background-color: lawngreen;
+    width: 45%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Card2 figcaption p {
+    position: relative;
+    top: -35px;
+    font-size: 0.8em;
+    line-height: 1em;
+    background-color: rgb(132, 132, 230);
+}
+
+.Images3 img {
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width: 110px;
+    height: 130px;
+}
 
 /* Activites a Marseille */
 
