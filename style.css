@@ -175,43 +175,75 @@ form span {
 }
 
 /* Hebergements a Marseille */
-.conteneur {
+
+/* Hebergements a M */
+.Main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    width: 100%;
+    height: auto;
+    background-color: rgb(158, 158, 86);
+}
+
+.Conteneur {
+    border: 1px solid  #F2F2F2;
+    border-radius: 20px;
+    background-color:  #F2F2F2;
     width: 50%;
     height: auto;
-    border: 1px solid  #F2F2F2;
-    background-color:  #F2F2F2;
-    border-radius: 30px;
     padding: 20px;
-    float: left;
-    margin-right: 40px;
 }
 
 .contenant {
     display: flex;
-    flex-flow: row wrap;
-    width: 100%;
+    flex-wrap: wrap;
+    width: 95%;
     height: auto;
 }
 
 .Card {
-    background-color: white;
-    border-radius: 25px;
-    box-shadow: 0px 0px 8px black;
-    width: 27%;
+    width: 250px;
     height: auto;
     padding: 5px;
-    margin: 19px;
+    margin: 15px;
     object-fit: contain;
-    object-position: center;
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: 0px 0px 5px rgb(165, 165, 165);
 }
 
-.Card figcaption {
+.Card h4, p, .fa-star {
     position: relative;
     top: -10px;
     left: 10px;
     padding: -20px;
     line-height : 0em;
 }
+
+.Card p, .fa-star {
+    font-size: 0.9em;
+}
+
+.fa-star {
+    color: #0065FC;
+}
+
+.Images {
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+    width: 250px;
+    height: 120px;
+}
+
+.Images2 {
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+    width: 250px;
+    height: 120px;
+}
+
 
 .Images img {
     object-fit: cover;
@@ -228,60 +260,7 @@ form span {
 }
 
 /* Les plus populaires */
-.conteneur2 {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    padding: 20px;
-    width: 20%;
-    height: auto;
-    border: 1px solid  #F2F2F2;
-    border-radius: 30px;
-    background-color:  #F2F2F2;
-    position: relative;
-}
-
-.fa-chart-line {
-    position : absolute;
-    width: 45px;
-    top : 40px;
-    right : 40px;
-    font-size: 25px;
-    width: 10%;
-}
-
-.Card2 {
-    object-fit: contain;
-    display: flex;
-    background-color: white;
-    border-radius: 25px;
-    box-shadow: 0px 0px 8px black;
-    margin: 20px;
-    width: 60%;
-    height: auto;
-    background-color: palevioletred;
-}
-
-.Card2 figcaption {
-    position: relative;
-    top: -5px;
-    left: 15px;
-    padding: -20px;
-    line-height : 1em;
-    width: 45%;
-    height: auto;
-    display: flex;
-    flex-wrap: wrap;
-    background-color: palegreen;
-}
-
-.Card2 figcaption p {
-    position: relative;
-    top: -35px;
-    font-size: 0.9em;
-}
-
-.Images3 img {
+.Images3 {
     object-fit: cover;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -290,6 +269,55 @@ form span {
     height: 50%;
 }
 
+.contenant2 {
+    background-color: rgb(30, 255, 0);
+}
+
+.Conteneur2 {
+    display: flex;
+    flex-flow: wrap column;
+    width: 100%;
+    height: auto;
+    margin-left: 50px;
+    padding: 20px;
+    border: 1px solid  #F2F2F2;
+    border-radius: 30px;
+    background-color:  #F2F2F2;
+    background-color: peru;
+    background-color: yellow;
+}
+
+
+.Card2 {
+    width: 250px;
+    height: auto;
+    padding: 5px;
+    margin: 15px;
+    object-fit: contain;
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: 0px 0px 5px rgb(165, 165, 165);
+    background-color: rgb(192, 120, 192);
+    display: flex;
+    flex-direction: wrap;
+}
+
+.Card2 h4, p {
+    position: relative;
+    top: -10px;
+    left: 10px;
+    padding: -20px;
+    line-height : 0em;
+}
+
+.Images3 {
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: red;
+    width: 120px;
+    height: 150px;
+}
 /* Activites a Marseille */
 
 #Grand {
