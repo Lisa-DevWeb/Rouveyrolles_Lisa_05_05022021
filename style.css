@@ -175,21 +175,12 @@ form span {
 }
 
 /* Hebergements a Marseille */
-#Parent {
-    display: flex;
-    width: 100%;
-    height: auto;
-    background-color: rgb(201, 241, 136);
-}
-
 .conteneur {
     width: 50%;
     height: auto;
-    padding-left: 20px;
     border: 1px solid  #F2F2F2;
-    border-radius: 30px;
     background-color:  #F2F2F2;
-    padding-left: 30px;
+    border-radius: 30px;
     padding: 20px;
     float: left;
     margin-right: 40px;
@@ -204,7 +195,6 @@ form span {
 
 .Card {
     background-color: white;
-    border: 1px solid white;
     border-radius: 25px;
     box-shadow: 0px 0px 8px black;
     width: 27%;
@@ -264,12 +254,12 @@ form span {
     object-fit: contain;
     display: flex;
     background-color: white;
-    border: 4px solid white;
     border-radius: 25px;
     box-shadow: 0px 0px 8px black;
     margin: 20px;
-    width: 85%;
+    width: 60%;
     height: auto;
+    background-color: palevioletred;
 }
 
 .Card2 figcaption {
@@ -282,6 +272,7 @@ form span {
     height: auto;
     display: flex;
     flex-wrap: wrap;
+    background-color: palegreen;
 }
 
 .Card2 figcaption p {
@@ -294,11 +285,56 @@ form span {
     object-fit: cover;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-    width: 130px;
-    height: 160px;
+    background-color: red;
+    width: 35%;
+    height: 50%;
 }
 
 /* Activites a Marseille */
+
+#Grand {
+    width: 100%;
+    height: auto;
+        background-color: rgb(230, 120, 142);
+}
+
+.Conteneur3 {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.G1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 20%;
+    height: auto;
+    object-fit: contain;
+    background-color: orange;
+}
+
+.G1 img {
+    width: 80%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Images4 img {
+    width: 100%;
+    height: 100%;
+}
+
+.G2 {
+    width: 20%;
+    height: auto;
+    object-fit: contain;
+    background-color: orchid;
+}
+
+.G2 img {
+    width: 20%;
+    height: 70%;
+    object-fit: cover;
+}
 
 /* Footer */
 
