@@ -192,7 +192,6 @@ form span {
     background-color:  #F2F2F2;
     padding: 20px;
     height: auto;
-    background-color: plum;
 }
 
 .contenant {
@@ -202,7 +201,6 @@ form span {
     align-items: center;
     width: 100%;
     height: auto;
-    background-color: powderblue;
 }
 
 .Card {
@@ -291,6 +289,9 @@ form span {
     background-color: plum;
 }
 
+.etoile {
+    position: relative;
+}
 
 .legende2 {
     width: 45%;
@@ -319,59 +320,72 @@ form span {
     height: 130px;
 }
 
+/* Activites a Marseille */
 
-/* .Images3 {
-    object-fit: cover;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-    background-color: red;
-    width: 35%;
-    height: 50%;
-}
-
-.contenant2 {
-    display: inline-block;
-    width: 100%;
-    float: right;
-    background-color: rgb(30, 255, 0);
-}
-
-.Conteneur2 {
+.Conteneur3 {
     display: flex;
-    flex-flow: wrap column;
-    width: 10%;
+    flex-flow: row wrap;
+    object-fit: contain;
+    justify-content: space-between;
+    width: 100%;
     height: auto;
-    padding: 20px;
-    border: 1px solid  #F2F2F2;
-    border-radius: 30px;
-    background-color:  #F2F2F2;
-    background-color: peru;
-    background-color: yellow;
 }
 
-.Card2 {
-    width: 250px;
-    height: auto;
-    padding: 5px;
-    margin: 15px;
+.G1 {
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+    width: 21.5%;
+    height: 100%;
     object-fit: contain;
+    object-fit: contain;
+    box-shadow: 5px 5px 5px rgb(223, 222, 222);
+    border-radius: 30px;
+}
+
+.G2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+    margin: 5px;
+    width: 23%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.deux {
+    margin-bottom: 15px;
+    height: 10%;
+    box-shadow: 5px 5px 5px rgb(223, 222, 222);
     border-radius: 25px;
     background-color: white;
-    box-shadow: 0px 0px 5px rgb(165, 165, 165);
-    background-color: rgb(192, 120, 192);
+    margin-top: 0;
+    margin-bottom: 45px;
 }
 
-.Card2 h4, .legende {
-    position: relative;
-    top: -10px;
-    left: 10px;
-    padding: -20px;
-    line-height : 0em;
-} */
+.G1 h4, .deux h4 {
+    margin-left: 20px;
+}
 
 
-/* Activites a Marseille */
-#Grand {
+.G1 img {
+    object-fit: cover;
+    border-radius: 25px 25px 0 0;
+    width: 17vw;
+    height: 40vh;
+    background-color: yellowgreen;
+}
+
+
+.G2 img {
+    object-fit: cover;
+    border-radius: 25px 25px 0 0;
+    width: 17vw;
+    height: 13vh;
+}
+
+/* #Grand {
     width: 100%;
     height: auto;
     background-color: rgb(255, 202, 212);
@@ -426,7 +440,7 @@ form span {
     background-color: rgb(82, 204, 82);
     box-shadow: 0px 0px 5px rgb(77, 71, 71);
     object-fit: contain;
-}
+} */
 
 /* Footer */
 
