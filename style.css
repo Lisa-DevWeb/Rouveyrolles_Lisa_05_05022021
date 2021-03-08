@@ -177,32 +177,32 @@ form span {
 /* Hebergements a Marseille */
 .Grandediv {
     display: flex;
-    flex-flow: row wrap;
     justify-content: space-around;
-    flex-basis: 68%;
-    width: 100%;
+    flex-basis: 100%;
+    background-color: green;
+
 }
 
 .Conteneur {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
     flex-wrap: wrap;
     margin-right: 40px;
     border: 1px solid  #F2F2F2;
     border-radius: 20px;
     background-color:  #F2F2F2;
     padding: 20px;
-    width: 65%;
-    height: 50%;
+    height: auto;
+    background-color: plum;
 }
 
 .contenant {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
     align-items: center;
     width: 100%;
     height: auto;
+    background-color: powderblue;
 }
 
 .Card {
@@ -251,7 +251,6 @@ form span {
 .Conteneur2 {
     display: flex;
     flex-flow: wrap column;
-    width: 30%;
     flex-basis: 30%;
     height: auto;
     object-fit: contain;
@@ -270,6 +269,8 @@ form span {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     background-color: yellow;
 }
@@ -314,7 +315,7 @@ form span {
     background-color: white;
     margin-right: 15px;
     padding: 5px;
-    width: 110px;
+    width: 140px;
     height: 130px;
 }
 
