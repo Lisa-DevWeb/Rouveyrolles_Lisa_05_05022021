@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://kit.fontawesome.com/ec9c483aab.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" media="all and (max-width: 575.98px)" href="mobile.css">
+    <link rel="icon" type="image/ico" href="images/logo/reservia_icon.ico">
     <title>Reservia</title>
 </head>
 <!--Début-->
@@ -85,11 +86,10 @@
             </section>
             
 <!--Hebergements-->
-<div class= "Grandediv">
-    <section>
+<section class= "Grandediv">
         <div class="Conteneur">
-                        <h3 id="hebergement">Hébergements à Marseille</h3>
-                    <div class="contenant">
+                        <h3 class="hebergement">Hébergements à Marseille</h3>
+                        <div class="six">
                             <div class="Card">
                                 <img src="hebergements/3_medium/C1.jpg" alt="photo de chambre" class="Images">
                                     <h4>Auberge de la Cannebière</h4>
@@ -104,13 +104,15 @@
                                     <i class="fas fa-star"></i>  <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i>
                             </div>
 
-                        <div class="Card">
-                                    <img src="hebergements/3_medium/C3.jpg" alt="chambre marron" class="Images">
-                                    <h4>Hôtel Les mouettes</h4>
-                                    <p class="legende">Nuit à partir de 76€</p>
-                                    <i class="fas fa-star"></i>  <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                            <div class="Card">
+                                        <img src="hebergements/3_medium/C3.jpg" alt="chambre marron" class="Images">
+                                        <h4>Hôtel Les mouettes</h4>
+                                        <p class="legende">Nuit à partir de 76€</p>
+                                        <i class="fas fa-star"></i>  <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                            </div>
                         </div>
 
+                        <div class="six">
                         <div class="Card">
                                     <img src="hebergements/3_medium/C4.jpg" alt="chambre bleu" class="Images2">
                                     <h4>Hôtel de la mer</h4>
@@ -131,15 +133,14 @@
                                     <p class="legende">Nuit à partir de 96€</p>
                                     <i class="fas fa-star"></i>  <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i>
                         </div>
-                    </div>
+                        </div>
             <p>Afficher plus</p>
         </div>  
-    </section>  
 <!--Les plus populaires-->  
-        <aside>
-            <div class="Conteneur2">
-                <h3>Les plus populaires</h3> <i class="fas fa-chart-line"></i>
-                    <div class="contenant2">
+        <aside class="Conteneur2">
+            <div class="titre">
+                <h3>Les plus populaires</h3><i class="fas fa-chart-line"></i>
+            </div>
                         <div class="Card2">
                             <img src="hebergements/2_large/chambre7.jpg" alt="chambre verte" class="Images3">
                             <div class="legende2">
@@ -150,7 +151,7 @@
                             </div>
                             </div>
                         </div>
-
+                      
                         <div class="Card2">
                             <img src="hebergements/2_large/chambre8.jpg" alt="chambre beige" class="Images3">
                             <div class="legende2">
@@ -172,10 +173,8 @@
                             </div>
                             </div>
                         </div>
-                    </div>
-            </div>
         </aside>  
-</div>  
+</section>  
 <!--Activités-->
 
 <section>
@@ -218,7 +217,6 @@
      </div>
     </div>
 </section>
-
 
 <!--Footer-->
             <footer>
