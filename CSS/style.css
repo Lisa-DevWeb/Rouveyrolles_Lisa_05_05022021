@@ -177,14 +177,12 @@ form span {
 /* Hebergements a Marseille */
 .Grandediv {
     display: flex;
-    justify-content: space-around;
-    flex-basis: 100%;
+    flex-direction: row;
+    background-color: purple;
 }
 
 .Conteneur {
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: 40px;
+    margin-right: 50px;
     border: 1px solid  #F2F2F2;
     border-radius: 20px;
     background-color:  #F2F2F2;
@@ -192,13 +190,9 @@ form span {
     height: auto;
 }
 
-.contenant {
+.six {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-    height: auto;
+    flex-direction: row;
 }
 
 .Card {
@@ -244,35 +238,34 @@ form span {
 
 /* Les plus populaires */
 
+.titre {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa-chart-line {
+    position: relative;
+    top: 25px;
+    right: 25px;
+    font-size: 1.5em;
+}
+
 .Conteneur2 {
     display: flex;
-    flex-flow: wrap column;
-    flex-basis: 30%;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    flex-basis: 25%;
     height: auto;
-    object-fit: contain;
     padding: 20px;
     border-radius: 20px;
     background-color:  #F2F2F2;
-}
-
-.Conteneur2 h3 {
-    display: inline-block;
-    padding: 0;
-    
-}
-
-.contenant2 {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
+    background-color: pink;
 }
 
 .Card2 {
     display: flex;
-    object-fit: contain;
+    flex-wrap: nowrap;
+    flex-direction: row;
     width: 90%;
     margin: 15px;
     border-radius: 20px;
@@ -284,25 +277,14 @@ form span {
     font-size: 0.9em;
 }
 
-.etoile {
-    position: relative;
-}
-
 .legende2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
     width: 45%;
-    height: auto;
+    height: 100%;
 }
 
-.fa-chart-line {
-    display: flex;
-    justify-content: flex-end;
-    position: relative;
-    top: -40px;
-    right: 15px;
-    font-size: 1.5em;
-    margin-top: 0px;
-    padding-top: 0px;
-}
 
 .Images3 {
     object-fit: cover;
@@ -312,7 +294,7 @@ form span {
     margin-right: 15px;
     padding: 5px;
     width: 140px;
-    height: 130px;
+    height: 140px;
 }
 
 /* Activites a Marseille */
@@ -385,7 +367,6 @@ form span {
     height: auto;
     background-color: rgb(255, 202, 212);
 }
-
 .Conteneur3 {
     width: 100%;
     height: auto;
@@ -394,7 +375,6 @@ form span {
     flex-flow: row wrap;
     background-color: rgb(207, 160, 160);
 }
-
 .G1 {
     display: block;
     object-fit: contain;
@@ -405,14 +385,12 @@ form span {
     width: 20%;
     height: auto;
 }
-
 .G1 img {
     object-fit: cover;
     border-radius: 25px 25px 0 0;
     width: 100%;
     height: auto;
 }
-
 .G2 {
     object-fit: contain;
     margin: 10px;
@@ -420,14 +398,12 @@ form span {
     float: left;
     width: 20%;
 }
-
 .G2 img {
     object-fit: cover;
     border-radius: 25px 25px 0 0;
     width: 100%;
     height: auto;
 }
-
 .deux {
     width: 100%;
     height: auto;
@@ -466,9 +442,3 @@ footer a {
     margin-left: 15%;
     text-align: left;
 }
-
-
-/* Maquette Tablette */
-
-/* Maquette Mobile */
-
