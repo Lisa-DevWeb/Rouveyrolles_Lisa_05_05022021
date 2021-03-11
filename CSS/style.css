@@ -70,6 +70,7 @@ h1 {
 h2 {
     font-size: 0.9em;
     font-weight: normal;
+    padding-bottom: 5px;
 }
 
 /*Formulaire*/
@@ -148,6 +149,10 @@ form span {
     font-weight: bold;
 }
 
+#Filtre a:hover {
+    color: #0065FC;
+}
+
 .Rond {
     position: relative;
     text-align: center;
@@ -178,7 +183,9 @@ form span {
 .Grandediv {
     display: flex;
     flex-direction: row;
-    background-color: purple;
+    padding-bottom: 20px;
+    width: 100%;
+    height: auto;
 }
 
 .Conteneur {
@@ -186,13 +193,19 @@ form span {
     border: 1px solid  #F2F2F2;
     border-radius: 20px;
     background-color:  #F2F2F2;
-    padding: 20px;
+    padding: 30px;
+    flex-basis: 55%;
     height: auto;
 }
 
 .six {
     display: flex;
     flex-direction: row;
+}
+
+.six a {
+    text-decoration: none;
+    color: black;
 }
 
 .Card {
@@ -203,7 +216,7 @@ form span {
     object-fit: contain;
     border-radius: 25px;
     background-color: white;
-    box-shadow: 0px 0px 5px rgb(165, 165, 165);
+    box-shadow: 5px 5px 5px rgb(230, 230, 230);
 }
 
 .Card h4, .legende, .fa-star {
@@ -243,6 +256,11 @@ form span {
     justify-content: space-between;
 }
 
+.Conteneur2 a {
+    text-decoration: none;
+    color: black;
+}
+
 .fa-chart-line {
     position: relative;
     top: 25px;
@@ -259,7 +277,6 @@ form span {
     padding: 20px;
     border-radius: 20px;
     background-color:  #F2F2F2;
-    background-color: pink;
 }
 
 .Card2 {
@@ -270,7 +287,7 @@ form span {
     margin: 15px;
     border-radius: 20px;
     background-color: white;
-    box-shadow: 0px 0px 5px rgb(165, 165, 165);
+    box-shadow: 5px 5px 5px rgb(230, 230, 230);
 }
 
 .legende2, .fa-star {
@@ -308,6 +325,11 @@ form span {
     height: auto;
 }
 
+.Conteneur3 a {
+    color: black;
+    text-decoration: none;
+}
+
 .G1 {
     display: flex;
     flex-wrap: wrap;
@@ -315,16 +337,20 @@ form span {
     width: 21.5%;
     height: 100%;
     object-fit: contain;
-    object-fit: contain;
-    box-shadow: 5px 5px 5px rgb(223, 222, 222);
+    border: 1px solid rgb(240, 240, 240);
+    box-shadow: 5px 5px 5px rgb(230, 230, 230);
     border-radius: 30px;
 }
+
+/* effet */
+
 
 .G2 {
     display: flex;
     flex-wrap: wrap;
     align-content: space-around;
     justify-content: center;
+    object-fit: contain;
     margin: 5px;
     width: 23%;
     height: 100%;
@@ -332,9 +358,10 @@ form span {
 }
 
 .deux {
-    margin-bottom: 15px;
-    height: 10%;
-    box-shadow: 5px 5px 5px rgb(223, 222, 222);
+    object-fit: contain;
+    height: 80%;
+    border: 1px solid rgb(240, 240, 240);
+    box-shadow: 5px 5px 5px rgb(230, 230, 230);
     border-radius: 25px;
     background-color: white;
     margin-top: 0;
@@ -345,21 +372,28 @@ form span {
     margin-left: 20px;
 }
 
-
 .G1 img {
     object-fit: cover;
     border-radius: 25px 25px 0 0;
-    width: 17vw;
+    width: 16.9vw;
     height: 40vh;
-    background-color: yellowgreen;
+    box-shadow: 0 15px 30px 0 rgba(0,0,0,0.11);
 }
 
+.G1:hover {
+    border:3px double #0065FC;
+    color:  #0065FC;
+}
+
+.deux:hover {
+    transform: rotate(5deg);
+}
 
 .G2 img {
     object-fit: cover;
     border-radius: 25px 25px 0 0;
     width: 17vw;
-    height: 13vh;
+    height: 13.5vh;
 }
 
 /* #Grand {
