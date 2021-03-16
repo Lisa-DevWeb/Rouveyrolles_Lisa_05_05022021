@@ -1,385 +1,122 @@
+
 /* // Medium devices (tablets, 768px and up) */
-@media all and (min-width: 767.98px) and (max-width: 991.98px) {
-      /*------------------- Police -------------------*/
-@font-face {
-    font-family: 'Raleway';
-    src: url(Raleway-Italic-VariableFont_wght.ttf);
-    src: url(Raleway-VariableFont_wght.ttf) format('truetype');
-    src: url('Raleway-VariableFont_wght.ttf') format('eot');
-}
+@media (min-width: 576px) and (max-width: 1025px) { 
+    @font-face {
+        font-family: 'Raleway';
+        src: url(Raleway-Italic-VariableFont_wght.ttf);
+        src: url(Raleway-VariableFont_wght.ttf) format('truetype');
+        src: url('Raleway-VariableFont_wght.ttf') format('eot');
+    }
 
-#bloc_page {
-    font-family: 'Raleway', Arial, serif;
-    width: 80%;
-    margin: auto;
-    background-color: rgb(255, 176, 5);
-} 
+    #bloc_page {
+        font-family: 'Raleway', Arial, serif;
+        width: 100%;
+        margin: auto;
+        background-color: rgb(214, 197, 245);
+    } 
 
-/*------------------- Header -------------------*/
+    /* Header */
+    header {
+        display: flex;
+        align-items: center;
+        background-color: rgb(170, 247, 119);
+    }
+    
+    #Logo {
+        width: 100%;
+    }
+    
+    /*Section de recherche*/
+    
+    #Rechercher h1, h2, #Formulaire, #Filtre {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        object-fit: contain;
+    }
 
-header {
-    display: flex;
-    align-items: center;
-}
+    h1 {
+        font-size: 1.1em;
+    }
 
-#Logo {
-    width: 60%;
-}
+    h2 {
+        font-size: 1em;
+        font-weight: normal;
+        padding-bottom: 5px;
+    }
 
-nav {
-    width: 100%;
-}
+    /*Formulaire*/
 
-nav ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: flex-end;
-}
+    .fa-map-marker-alt {
+        font-size: 18px;
+    }
 
-header a {
-    text-decoration: none;
-    color: #0e0e0e;
-    font-size: 0.8em;
-}
+    .recherche {
+        padding-left: 15px;
+    }
 
-nav ul li, #Inscrire {
-    padding-left: 25px;
-}
+    /* Hebergement */
+    .Grandediv {
+        display: flex;
+        flex-direction: column;
+    }
 
-#Inscrire {
-    font-weight: bold;
-    color: #0065FC;
-}
+    .Grandediv .Conteneur {
+        flex-wrap: wrap;
+        padding: 0;
+        width: 90vw;
+        background-color: rgb(9, 255, 0);
+    }
 
-nav a:hover {
-    padding-top: 20px;
-    border-top: 2px solid #0065FC;
-}
+    .Conteneur {
+        background-color: powderblue;
+        width: 75vw;
+        height: auto;
+        padding: 20px;
+        background-color: peru;
+    }
 
-/* Mobile */
+    .Card {
+          width: 25vw;
+    }
 
-#Loupe {
-    display: none;
-}
+    .Images, .Images2 {
+        width: 25vw;
+    }
 
-/*Section de recherche*/
+    /* Les plus populaires */
+    .Conteneur2 {
+        background-color: powderblue;
+        width: 45vw;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        flex: 1;
+        order: 2;
+        float: right;
+    }
 
-h1 {
-    font-size: 1.1em;
-}
+    .Card2 {
+        width: 40vw;
+        margin-bottom: 20px;
+        background-color: peru;
+    }
 
-h2 {
-    font-size: 0.9em;
-    font-weight: normal;
-}
+    .Images3 {
+        width: 27vw;
+        height: 20vh; 
+    }
 
-/*Formulaire*/
+    .legende2 {
+        width: 30vw;
+    }
 
-form {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    width: 300px;
-    height: 40px;
-}
+    /* Activite */
+   
 
-form p {
-    width: 100%;
-    height: 90%;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-
-form span {
-    background-color: #f2f2f2;
-    border-radius: 10px 0 0 10px;
-    width: 25%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.fa-map-marker-alt {
-    font-size: 12px;
-}
-
-.recherche {
-    width: 100%;
-    border: none;
-    border-top: 1px #F2F2F2;
-    border-bottom: 1px solid #F2F2F2;
-    color: rgb(65, 65, 65);
-}
-
-.submit {
-    background-color: #0065FC;
-    border-radius: 0 15px 15px 0;
-    color: white;
-    font-size: 0.8em;
-    width: 60%;
-    border: none;
-}
-
-/* Filtres */
-
-#Filtre {
-    width: 80%;
-    height: auto;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    flex-flow: row wrap;
-}
-
-#Filtre li {
-    list-style-type: none;
-    display: flex;
-    align-items: center;
-    margin: 10px;
-    border: 1px solid #cccccc;
-    border-radius: 50px;
-}
-
-#Filtre a {
-    text-decoration: none;
-    color: #0e0e0e;
-    font-size: 0.8em;
-    padding-left: 10px;
-    margin-right: 6px;
-    font-weight: bold;
-}
-
-.Rond {
-    position: relative;
-    text-align: center;
-    font-size: 10px;
-    color:  #0065FC;
-    background-color: #DEEBFF;
-    border: 1px solid #DEEBFF;
-    border-radius: 50px;
-    width: 30px;
-    height: 30px;
-}
+    .G1 {
+        flex: 2;
+        order: -6;
+    }
 
 
-/* 500 logements */
-.fa-info {
-    text-align: center;
-    font-size: 10px;
-    color:  #0065FC;
-    padding: 3px;
-    border: 1px solid rgb(223, 220, 220);
-    border-radius: 50px;
-    width: 10px;
-    height: 10px;
-    margin-right: 5px;
-}
-
-/* Hebergements a Marseille */
-.G {
-    display: flex;
-}
-
-.Main {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    border-radius: 20px;
-    width: 100%;
-    height: auto;
-    background-color: rgb(158, 158, 86);
-}
-
-.Conteneur {
-    border: 1px solid  #F2F2F2;
-    border-radius: 20px;
-    background-color:  #F2F2F2;
-    width: 60%;
-    height: 50%;
-    padding-left: 25px;
-}
-
-.contenant {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    height: auto;
-}
-
-.Card {
-    width: 250px;
-    height: auto;
-    padding: 5px;
-    margin: 15px;
-    object-fit: contain;
-    border-radius: 25px;
-    background-color: white;
-    box-shadow: 0px 0px 5px rgb(165, 165, 165);
-}
-
-.Card h4, .legende, .fa-star {
-    position: relative;
-    top: -10px;
-    left: 10px;
-    padding: -20px;
-    line-height : 0em;
-}
-
-.Card p, .fa-star {
-    font-size: 0.9em;
-}
-
-.fa-star {
-    color: #0065FC;
-}
-
-.Images {
-    object-fit: cover;
-    border-radius: 20px 20px 0 0;
-    width: 250px;
-    height: 120px;
-}
-
-.Images2 {
-    object-fit: cover;
-    border-radius: 20px 20px 0 0;
-    width: 250px;
-    height: 120px;
-}
-
-/* Les plus populaires */
-.Images3 {
-    object-fit: cover;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-    background-color: red;
-    width: 35%;
-    height: 50%;
-}
-
-.contenant2 {
-    background-color: rgb(30, 255, 0);
-}
-
-.Conteneur2 {
-    display: flex;
-    flex-flow: wrap column;
-    width: 100%;
-    height: auto;
-    margin-left: 50px;
-    padding: 20px;
-    border: 1px solid  #F2F2F2;
-    border-radius: 30px;
-    background-color:  #F2F2F2;
-    background-color: peru;
-    background-color: yellow;
-}
-
-.Card2 {
-    width: 250px;
-    height: auto;
-    padding: 5px;
-    margin: 15px;
-    object-fit: contain;
-    border-radius: 25px;
-    background-color: white;
-    box-shadow: 0px 0px 5px rgb(165, 165, 165);
-    background-color: rgb(192, 120, 192);
-}
-
-.Card2 h4, .legende {
-    position: relative;
-    top: -10px;
-    left: 10px;
-    padding: -20px;
-    line-height : 0em;
-}
-
-
-/* Activites a Marseille */
-#Grand {
-    width: 100%;
-    height: auto;
-    background-color: rgb(255, 202, 212);
-}
-
-.Conteneur3 {
-    width: 100%;
-    height: auto;
-    object-fit: contain;
-    display: flex;
-    flex-flow: row wrap;
-    background-color: rgb(207, 160, 160);
-}
-
-.G1 {
-    display: block;
-    object-fit: contain;
-    margin-right: 20px;
-    background-color: orange;
-    margin: 5px;
-    border: 1px solid #ccc;
-    width: 20%;
-    height: auto;
-}
-
-.G1 img {
-    object-fit: cover;
-    border-radius: 25px 25px 0 0;
-    width: 100%;
-    height: auto;
-}
-
-.G2 {
-    object-fit: contain;
-    margin: 10px;
-    border: 1px solid #ccc;
-    width: 20%;
-}
-
-.G2 img {
-    object-fit: cover;
-    border-radius: 25px 25px 0 0;
-    width: 100%;
-    height: auto;
-}
-
-.deux {
-    width: 100%;
-    height: auto;
-    border-radius: 25px;
-    background-color: rgb(82, 204, 82);
-    box-shadow: 0px 0px 5px rgb(77, 71, 71);
-    object-fit: contain;
-}
-
-/* Footer */
-
-#Bas {
-    display: flex;
-    flex-wrap: wrap;
-    padding-top: 20px;
-    margin-top: 20px;
-    background-color: #F2F2F2;
-}
-
-footer li {
-    list-style-type: none;  
-    line-height: 30px;
-}
-
-footer h4 {
-    text-align: left;
-    text-indent: 40px;
-}
-
-footer a {
-    text-decoration: none;
-    color: black;
-}
-
-#Charte, #Contact {
-    margin-left: 15%;
-    text-align: left;
-}
  }

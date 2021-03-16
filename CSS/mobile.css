@@ -15,7 +15,6 @@
 
     /* header */
     header { 
-        background-color: rgb(235, 181, 208); 
         width: 100%; 
         display: flex; 
         flex-wrap: wrap; 
@@ -28,19 +27,26 @@
      
     #Logo {
         padding-left: 15px;
+        width: 22vw;
     }
 
     #Inscrire {
         display: flex;
         justify-content: flex-end;
+        padding-right: 25px;
         width: 100%;
+        font-size: 1.2em;
         flex: 1;
         order: -1;
-        background-color: yellowgreen;
     }
 
     header a {
-        font-size: 1em;
+        font-size: 1.2em;
+    }
+    
+    nav a:hover {
+        padding-top: 0;
+        border-top: 0 solid #0065FC;
     }
     
     .Menu ul {
@@ -52,12 +58,14 @@
         justify-content: center;
         flex: 2;
         order: 2;
-        background-color: rgb(229, 151, 151);
-        width: 100%;
         height: auto;
         padding-top: 10px;
         padding-bottom: 10px;
-        border-bottom: 2px solid #0065FC;
+        border-bottom: 4px solid #0065FC;
+    }
+
+    .Menu a {
+        color: #0065FC;
     }
 
     #activite {
@@ -191,43 +199,74 @@
     }
 
     .logements h2 {
-        width: 100%;
+        width: 85vw;
         display: flex;
         justify-content: center;
-        background-color: sandybrown;
     }
      
     /* Les plus populaires */
-     .h3 {
-         font-size: 1em;
-     }
-    
     .titre h3 {
-        padding-left: 15px;
         margin-bottom: 5px;
     }
 
     .Conteneur2 {
          flex: 1;
          order: -2;
-         width: 83vw;
-         padding: 10px;
-         background-color: rgb(0, 255, 179);
+         width: 78vw;
+         padding: 15px;
+     }
+
+     .Conteneur2 a {
+         padding-bottom: 5px;
+         justify-content: baseline;
+         align-items: baseline;
      }
 
      .fa-chart-line {
-        right: 30px;
+        right: 20px;
     }
 
-     .Card2 {
-         width: 75vw;
-         background-color: chartreuse;
+    .legende2 h4 {
+        font-size: 1.2em;
+        margin-top: 15px;
+    }
+     
+    .legende2 p {
+        position: relative;
+        margin-top: -10px;
+        font-size: 1.1em;
+    }
+
+    .legende2 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+        width: 40vw;
+        height: auto;
+    }
+
+    .etoile .fa-star {
+        position: relative;
+        padding-top: 35px;
+        align-content: flex-end;
+    }
+
+    .Card2 {
+         width: 76vw;
+         margin: 5px;
+     }
+
+     .Images3 {
+        width: 27vw;
+        height: 20vh; 
      }
     
     /* Hebergements a M */
     .Grandediv {
         flex-direction: column;
         flex-wrap: wrap;
+        width: 85vw;
+        height: auto;
         margin-left: 15px;
     }
 
@@ -239,12 +278,11 @@
     .Conteneur {
          flex: 1;
          order: 1;
-         width: 87vw;
+         width: 84vw;
          padding: 0;
          margin-top: 20px;
          border: 0;
-         border-radius: 0;
-         background-color: white;
+         background-color: #F2F2F2;
      }
 
      .Conteneur h4 {
@@ -258,26 +296,22 @@
          padding: 0;
          margin: 0;
          flex-wrap: wrap;
-         align-items: center;
-         justify-content: center;
+     }
+
+     .six a {
+        flex-wrap: wrap;
      }
 
      .Card {
-         width: 78vw;
+         width: 74vw;
+         box-shadow: 5px rgb(230, 230, 230);
      }
 
-     .Images {
+     .Images, .Images2 {
         object-fit: cover;
         border-radius: 20px 20px 0 0;
-        width: 78vw;
+        width: 74vw;
         height: 15vh;
-    }
-    
-    .Images2 {
-        object-fit: cover;
-        border-radius: 20px 20px 0 0;
-        width: 78vw;
-        height: 14vh;
     }
 
     /* Activites a Marseille */
@@ -286,6 +320,11 @@
         align-items: center;
         width: 93vw;
         padding-bottom: 20px;
+    }
+
+    #activite {
+        border: none;
+        padding-left: 20px;
     }
 
     .G1 {
@@ -333,7 +372,6 @@
         flex-flow: column wrap;
         padding-top: 10px;
         background-color: #F2F2F2;
-        background-color: orangered;
     }
 
     footer a, li {
@@ -348,6 +386,10 @@
         text-align: left;
         text-indent: 40px;
         margin-bottom: 0;
+    }
+
+    #Charte, #Contact {
+        padding-left: 0;
     }
      
 }
