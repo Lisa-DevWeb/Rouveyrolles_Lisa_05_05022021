@@ -1,5 +1,3 @@
-/* Maquette Desktop */
-
 /*------------------- Police -------------------*/
 @font-face {
     font-family: 'Raleway';
@@ -195,7 +193,6 @@ form span {
     padding: 30px;
     width: 52vw;
     height: auto;
-    background-color: peru;
 }
 
 .six {
