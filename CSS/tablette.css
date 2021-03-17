@@ -1,6 +1,6 @@
 
 /* // Medium devices (tablets, 768px and up) */
-@media (min-width: 576px) and (max-width: 1025px) { 
+@media (min-width: 769px) and (max-width: 1025px) { 
     @font-face {
         font-family: 'Raleway';
         src: url(Raleway-Italic-VariableFont_wght.ttf);
@@ -51,12 +51,178 @@
         font-size: 18px;
     }
 
-    .recherche {
-        padding-left: 15px;
+    #Formulaire {
+        display: none;
     }
 
-    /* Hebergement */
-    .Grandediv {
+    #Loupe {
+        visibility: visible !important;
+        display: inline-block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-left: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    #Loupe form {
+        width: 50vw;
+        height: 5vh;
+        margin: 0;
+        padding-top: 10px;
+        display: flex;
+        justify-content: center;
+    }
+
+    #Loupe form span {
+        border-radius: 15px 0 0 15px;
+        width: 10%;
+    }
+
+    .recherche {
+        width: 25vw;
+        border: none;
+        color: rgb(65, 65, 65);
+        font-size: 1em;
+        font-weight: bold;
+        padding-left: 15px;
+        border: 1px solid #F2F2F2;
+    }
+
+    .fa-map-marker-alt {
+        font-size: 20px;
+    }
+
+    button {
+        position: relative;
+        right: 13px;
+    }
+
+    .submit {
+        border-radius: 0 12px 12px 0;
+        font-size: 1.2em;
+        width: 5vw;
+    }
+    
+    /* Les plus populaires */
+    .titre h3 {
+        margin-bottom: 5px;
+        padding-bottom: 10px;
+    }
+
+    .populaire {
+         flex: 1;
+         order: -2;
+         width: 70vw;
+         padding: 15px;
+         margin-bottom: 25px;
+         align-items: center;
+     }
+
+     .populaire a {
+         padding-bottom: 10px;
+     }
+
+    .fa-chart-line {
+        right: 40px;
+        top: 40px;
+    }
+
+    .legendeux h4 {
+        font-size: 1.2em;
+        margin-top: 15px;
+        margin-bottom: 0;
+    }
+     
+    .legendeux p {
+        position: relative;
+        margin-top: 5px;
+        font-size: 1em;
+    }
+
+    .legendeux {
+        display: flex;
+        object-fit: contain;
+        flex-direction: column;
+        margin-top: 0;
+        width: 40vw;
+        height: auto;
+        margin-top: 0;
+    }
+
+    .etoile .fa-star {
+        position: relative;
+        padding-top: 35px;
+        align-content: flex-end;
+    }
+
+    .carte {
+         width: 60vw;
+         margin: 5px;
+         object-fit: contain;
+     }
+
+     .Images3 {
+        width: 25vw;
+        height: 18vh; 
+     }
+    
+    /* Hebergements a M */
+    .grandediv {
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .heber h3 {
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+
+    .heber h4 {
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-size: 1.2em;
+        font-weight: bold;
+        padding: 0;
+    }
+
+    .heber {
+         flex: 1;
+         order: 1;
+         width: 71vw;
+         margin-top: 10px;
+         margin-right: 0;
+         padding: 10px;
+         border: 0;
+         background-color: #F2F2F2;
+     }
+
+     .six {
+         padding: 0;
+         margin: 0;
+         flex-wrap: wrap;
+         justify-content: baseline;
+     }
+
+     .card {
+         width: 63vw;
+         box-shadow: 5px rgb(230, 230, 230);
+     }
+
+     .card p {
+         font-size: 1em;
+     }
+
+     .Images, .Images2 {
+        object-fit: cover;
+        border-radius: 20px 20px 0 0;
+        width: 63vw;
+        height: 16vh;
+    }
+
+
+    /* .Grandediv {
         display: flex;
         flex-direction: column;
     }
@@ -78,13 +244,14 @@
 
     .Card {
           width: 25vw;
+          height: auto;
     }
 
     .Images, .Images2 {
         width: 25vw;
     }
 
-    /* Les plus populaires */
+    /* Les plus populaires
     .Conteneur2 {
         background-color: powderblue;
         width: 45vw;
@@ -108,15 +275,10 @@
 
     .legende2 {
         width: 30vw;
-    }
+    } */
 
     /* Activite */
    
-
-    .G1 {
-        flex: 2;
-        order: -6;
-    }
 
 
  }

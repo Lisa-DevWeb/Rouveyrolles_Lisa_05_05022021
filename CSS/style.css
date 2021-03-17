@@ -128,6 +128,10 @@ form span {
     flex-flow: row wrap;
 }
 
+#Filtre h4 {
+    padding-left: 12px;
+}
+
 #Filtre li {
     list-style-type: none;
     display: flex;
@@ -177,7 +181,7 @@ form span {
 }
 
 /* Hebergement */
-.Grandediv {
+.grandediv {
     display: flex;
     flex-direction: row;
     object-fit: contain;
@@ -185,19 +189,20 @@ form span {
     height: auto;
 }
 
-.Conteneur {
+.heber {
     margin-right: 45px;
     border: 1px solid  #F2F2F2;
     border-radius: 20px;
     background-color:  #F2F2F2;
     padding: 30px;
-    width: 52vw;
+    width: 50vw;
     height: auto;
 }
 
 .six {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
 
 .six a {
@@ -205,18 +210,24 @@ form span {
     color: black;
 }
 
-.Card {
+.card {
     width: 14vw;
     height: auto;
-    padding: 5px;
-    margin: 15px;
+    margin: 10px;
     object-fit: contain;
+    border: 5px solid white;
     border-radius: 25px;
     background-color: white;
     box-shadow: 5px 5px 5px rgb(230, 230, 230);
 }
 
-.Card h4, .legende, .fa-star {
+.card h4 {
+    position: relative;
+    left: 10px;
+    top: -10px;
+}
+
+.card .legende, .fa-star {
     position: relative;
     top: -10px;
     left: 10px;
@@ -224,7 +235,7 @@ form span {
     line-height : 0em;
 }
 
-.Card p, .fa-star {
+.card p, .fa-star {
     font-size: 0.9em;
 }
 
@@ -240,23 +251,22 @@ form span {
 }
 
 /* Les plus populaires */
-.Conteneur2 {
+.populaire {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
     justify-content: space-around;
-    width: 20vw;
+    position:relative;
+    width: 30%;
     height: auto;
     padding: 25px;
     border-radius: 20px;
     background-color:  #F2F2F2;
 }
 
-.Card2 {
+.carte {
     display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    width: 19vw;
+    width: 95%;
     border-radius: 20px;
     background-color: white;
     box-shadow: 5px 5px 5px rgb(230, 230, 230);
@@ -273,38 +283,35 @@ form span {
     height: 16vh; 
 }
 
-.titre {
-    display: flex;
-    justify-content: space-between;
-}
-
-.Conteneur2 a {
+.populaire a {
     text-decoration: none;
     color: black;
 }
 
 .fa-chart-line {
-    position: relative;
-    top: 25px;
-    right: 25px;
+    position: absolute;
+    top: 60px;
+    right: 20px;
     font-size: 1.5em;
+    width: 40px;
+    background-color: orange;
 }
 
-.legende2 {
+.legendeux {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 8vw;
     height: 15vh;
 }
 
-.legende2 p {
+.legendeux p {
     position: relative;
     margin-top: -25px;
     padding-top: 0;
 }
 
-.legende2, .fa-star {
+.legendeux, .fa-star {
     font-size: 0.9em;
 }
 
@@ -317,6 +324,10 @@ form span {
     justify-content: space-between;
     width: 100%;
     height: auto;
+}
+
+.Conteneur3 h3 {
+    position: absolute;
 }
 
 .Conteneur3 a {
