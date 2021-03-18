@@ -117,6 +117,10 @@ form span {
     border: none;
 }
 
+ .submit:hover {
+        cursor: pointer;
+    }
+
 /* Filtres */
 
 #Filtre {
@@ -399,30 +403,34 @@ form span {
     height: 13.5vh;
 }
 
-/* Footer */
-
-
+/* Footer*/
 #Bas {
-    display: flex;
-    flex-direction: row;
-    padding-top: 20px;
-    background-color: #F2F2F2;
-}
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-top: 20px;
+        background-color: #F2F2F2;
+    }
+    
+    footer h4 {
+        text-indent: 40px;
+    }
+    
+    footer a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    footer li {
+        list-style-type: none;  
+        line-height: 30px;
+    }
+    
+    #Propos {
+        margin-left: -20px;
+    }
+    
+    #Charte, #Contact {
+        padding-left: 0;
+    }
 
-footer h4 {
-    text-indent: 40px;
-}
-
-footer a {
-    text-decoration: none;
-    color: black;
-}
-
-footer li {
-    list-style-type: none;  
-    line-height: 30px;
-}
-
-#Charte, #Contact {
-    padding-left: 170px;
-}

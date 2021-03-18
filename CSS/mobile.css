@@ -213,7 +213,7 @@
     .populaire {
          flex: 1;
          order: -2;
-         width: 78vw;
+         width: 85vw;
          padding: 15px;
          margin-bottom: 25px;
      }
@@ -248,7 +248,7 @@
         margin-top: 0;
         width: 40vw;
         height: auto;
-        margin-top: 0;
+        background-color: palegoldenrod;
     }
 
     .etoile .fa-star {
@@ -258,14 +258,15 @@
     }
 
     .carte {
-         width: 77vw;
          margin: 5px;
+         width: 80vw;
          object-fit: contain;
+         background-color: purple;
      }
 
      .Images3 {
-        width: 27vw;
-        height: 16vh; 
+        width: 20vw;
+        height: 20vh; 
      }
     
     /* Hebergements a M */
@@ -394,6 +395,10 @@
         text-align: left;
         text-indent: 40px;
         margin-bottom: 0;
+    }
+
+    #Propos {
+        margin-left: 0;
     }
 
     #Charte, #Contact {
