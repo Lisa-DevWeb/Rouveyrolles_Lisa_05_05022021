@@ -143,6 +143,10 @@
         font-size: 1.2em;
         width: 10vw;
     }
+
+    .submit:hover {
+        cursor: inherit;
+    }
     
     /* Filtres */
     .logements {
@@ -174,6 +178,10 @@
 
     #Filtre a {
         font-size: 1.1em;
+    }
+
+    #Filtre a:hover {
+        color: inherit;
     }
 
     .Rond {
@@ -328,11 +336,16 @@
     }
 
     /* Activites a Marseille */
-    .Conteneur3 {
+    .sextuor {
         flex-flow: column wrap;
         align-items: center;
         width: 93vw;
         padding-bottom: 20px;
+    }
+
+    .sextuor h4 {
+        margin-top: 15px;
+        margin-left: 13px;
     }
 
     #activite {
@@ -340,40 +353,45 @@
         padding-left: 20px;
     }
 
-    .G1 {
+    .grand {
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         margin-bottom: 13px;
         margin-top: 11px;
         width: 85vw;
-        height: 22vh;
+        height: 20vh;
         border: 0;
     }
      
-    .G1 img {
+    .grand img {
         width: 85vw;
         height: 13vh;
     }
 
-    .G2 {
+    .duo {
         width: 85vw;
         height: 50vh;
         border: 0;
     }
     
     .deux {
-        height: 22vh;
+        height: 20vh;
         border-radius: 25px;
         padding: 0;
         margin: 0;
         background-color: white;
     }
+
+    .grand:hover {
+        border: none;
+        color: none;
+    }
     
     .deux:hover {
-        transform: rotate(3deg);
+        transform: none;
     }
 
-    .G2 img {
+    .duo img {
         width: 85vw;
         height: 13vh;
     }

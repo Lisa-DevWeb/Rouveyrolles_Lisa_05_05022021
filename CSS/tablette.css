@@ -29,10 +29,10 @@
     }
     
     nav a:hover {
-        padding-bottom: 5px;
-        border-bottom: 2px solid #0065FC;
+        padding-bottom: 0;
+        border-bottom: none;
         padding-top: 0;
-        border-top: 0 solid #0065FC;
+        border-top: none;
     }
     
     nav ul {
@@ -86,7 +86,7 @@
 
     #Loupe form {
         width: 50vw;
-        height: 5vh;
+        height: 4vh;
         margin: 0;
         padding-top: 10px;
         display: flex;
@@ -100,6 +100,7 @@
 
     .recherche {
         width: 25vw;
+        height: 4vh;
         border: none;
         color: rgb(65, 65, 65);
         font-size: 1em;
@@ -121,8 +122,14 @@
         border-radius: 0 12px 12px 0;
         font-size: 1.2em;
         width: 5vw;
+        height: 4vh;
     }
     
+    /* Filtreq */
+    #Filtre a:hover {
+        color: inherit;
+    }
+
     /* Les plus populaires */
     .populaire {
         flex: 2;
@@ -171,7 +178,7 @@
     .heber {
         flex: 1;
         order: 1;
-        width: 72vw;
+        width: 73vw;
         margin-top: 10px;
         margin-right: 0;
         padding: 15px;
@@ -234,6 +241,60 @@
         padding-left: 0;
     }
     
+    /* Activite */
+    .sextuor {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+    }
+
+    .sextuor a {
+        height: 22vh;
+    }
+
+    .grand {
+        flex-flow: column wrap;
+        width: 30vw;
+        height: 44vh;
+        margin-right: 25px;
+        margin-bottom: 25px;
+    }
+    
+    .duo {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 35vw;
+        height: 45vh;
+    }
+
+    .deux {
+        width: 30vw;
+        height: 17vw;
+    }
+    
+    .grand img {
+        width: 30vw;
+        height: 37vh;
+        box-shadow: none;
+        border-radius: none;
+    }
+
+    .duo img {
+        width: 30vw;
+        height: 13vh;
+    }
+
+    .grand:hover {
+        border: none;
+        color: none;
+    }
+    
+    .deux:hover {
+        transform: none;
+    }
+
     /*
     .six {
         padding: 0;
@@ -526,10 +587,5 @@
 
     .legende2 {
         width: 30vw;
-    } */
-
-    /* Activite */
-   
-
-
+    } */   
  }

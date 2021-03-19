@@ -320,7 +320,7 @@ form span {
 
 /* Activites a Marseille */
 
-.Conteneur3 {
+.sextuor {
     display: flex;
     flex-flow: row wrap;
     object-fit: contain;
@@ -329,16 +329,16 @@ form span {
     height: auto;
 }
 
-.Conteneur3 h3 {
+.sextuor h3 {
     position: absolute;
 }
 
-.Conteneur3 a {
+.sextuor a {
     color: black;
     text-decoration: none;
 }
 
-.G1 {
+.grand {
     display: flex;
     flex-wrap: wrap;
     float: left;
@@ -350,9 +350,7 @@ form span {
     border-radius: 30px;
 }
 
-/* effet */
-
-.G2 {
+.duo {
     display: flex;
     flex-wrap: wrap;
     align-content: space-around;
@@ -374,11 +372,12 @@ form span {
     margin-bottom: 45px;
 }
 
-.G1 h4, .deux h4 {
+.grand h4, .deux h4 {
     margin-left: 20px;
 }
+/* effet */
 
-.G1 img {
+.grand img {
     object-fit: cover;
     border-radius: 25px 25px 0 0;
     width: 16.9vw;
@@ -386,7 +385,7 @@ form span {
     box-shadow: 0 15px 30px 0 rgba(0,0,0,0.11);
 }
 
-.G1:hover {
+.grand:hover {
     border:3px double #0065FC;
     color:  #0065FC;
 }
@@ -395,7 +394,7 @@ form span {
     transform: rotate(5deg);
 }
 
-.G2 img {
+.duo img {
     object-fit: cover;
     border-radius: 25px 25px 0 0;
     width: 17vw;
