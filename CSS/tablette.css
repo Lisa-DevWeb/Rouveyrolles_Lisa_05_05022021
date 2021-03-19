@@ -12,7 +12,6 @@
         font-family: 'Raleway', Arial, serif;
         width: 80%;
         margin: auto;
-        background-color: rgb(214, 197, 245);
     } 
 
     /* Header */
@@ -193,13 +192,8 @@
         font-size: 0.9em;
     }
 
-    .six {
-        background-color: yellow;
-    }
-
     .card {
         width: 22vw;
-        background-color: yellowgreen;
     }
     
     .Images, .Images2 {

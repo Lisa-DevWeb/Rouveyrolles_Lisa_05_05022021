@@ -213,7 +213,7 @@
     .populaire {
          flex: 1;
          order: -2;
-         width: 85vw;
+         width: 83vw;
          padding: 15px;
          margin-bottom: 25px;
      }
@@ -231,11 +231,11 @@
 
     .legendeux h4 {
         font-size: 1.2em;
-        margin-top: 15px;
+        margin-top: 10px;
         margin-bottom: 0;
     }
-     
-    .legendeux p {
+
+    .legendeux p { 
         position: relative;
         margin-top: 5px;
         font-size: 1em;
@@ -246,27 +246,31 @@
         object-fit: contain;
         flex-direction: column;
         margin-top: 0;
-        width: 40vw;
+        width: 42vw;
+        height: 25vh;
         height: auto;
-        background-color: palegoldenrod;
     }
 
     .etoile .fa-star {
         position: relative;
-        padding-top: 35px;
+        padding-top: 20px;
+        margin-top: 0;
         align-content: flex-end;
     }
 
     .carte {
-         margin: 5px;
+         margin: 8px;
+         padding: 5px;
+         margin-left: 0;
          width: 80vw;
+         height: 18vh;
          object-fit: contain;
-         background-color: purple;
      }
 
      .Images3 {
-        width: 20vw;
-        height: 20vh; 
+        width: 30vw;
+        height: 18vh; 
+        padding: 0;
      }
     
     /* Hebergements a M */
@@ -292,7 +296,7 @@
     .heber {
          flex: 1;
          order: 1;
-         width: 80vw;
+         width: 85vw;
          margin-top: 10px;
          margin-right: 0;
          padding: 10px;
@@ -308,7 +312,7 @@
      }
 
      .card {
-         width: 74vw;
+         width: 80vw;
          box-shadow: 5px rgb(230, 230, 230);
      }
 
@@ -319,7 +323,7 @@
      .Images, .Images2 {
         object-fit: cover;
         border-radius: 20px 20px 0 0;
-        width: 74vw;
+        width: 80vw;
         height: 16vh;
     }
 

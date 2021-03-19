@@ -270,7 +270,7 @@ form span {
 
 .carte {
     display: flex;
-    width: 95%;
+    width: 20vw;
     border-radius: 20px;
     background-color: white;
     box-shadow: 5px 5px 5px rgb(230, 230, 230);
@@ -298,7 +298,6 @@ form span {
     right: 20px;
     font-size: 1.5em;
     width: 40px;
-    background-color: orange;
 }
 
 .legendeux {
