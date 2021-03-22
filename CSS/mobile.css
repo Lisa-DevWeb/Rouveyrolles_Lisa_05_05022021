@@ -218,6 +218,10 @@
         padding-bottom: 10px;
     }
 
+    .titre {
+        width: 95%;
+    }
+
     .populaire {
          flex: 1;
          order: -2;
@@ -235,6 +239,9 @@
     .fa-chart-line {
         right: 10px;
         top: 40px;
+        position: absolute;
+        font-size: 1.5em;
+        width: 40px;
     }
 
     .legendeux h4 {

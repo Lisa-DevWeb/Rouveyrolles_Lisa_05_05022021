@@ -10,6 +10,7 @@
     font-family: 'Raleway', Arial, serif;
     width: 80%;
     margin: auto;
+    background-color: yellowgreen;
 } 
 
 /*------------------- Header -------------------*/
@@ -188,13 +189,13 @@ form span {
 .grandediv {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     object-fit: contain;
     width: 100%;
     height: auto;
 }
 
 .heber {
-    margin-right: 45px;
     border: 1px solid  #F2F2F2;
     border-radius: 20px;
     background-color:  #F2F2F2;
@@ -215,7 +216,7 @@ form span {
 }
 
 .card {
-    width: 14vw;
+    width: 13vw;
     height: auto;
     margin: 10px;
     object-fit: contain;
@@ -250,8 +251,8 @@ form span {
 .Images, .Images2 {
     object-fit: cover;
     border-radius: 20px 20px 0 0;
-    width: 14vw;
-    height: 14vh;
+    width: 13vw;
+    height: 12vh;
 }
 
 /* Les plus populaires */
@@ -260,17 +261,24 @@ form span {
     flex-wrap: nowrap;
     flex-direction: column;
     justify-content: space-around;
-    position:relative;
-    width: 30%;
+    align-items: center;
+    position: relative;
+    width: 23vw;
     height: auto;
-    padding: 25px;
+    padding: 0;
     border-radius: 20px;
     background-color:  #F2F2F2;
 }
 
+.titre {
+    width: 85%;
+    display: flex
+}
+
 .carte {
     display: flex;
-    width: 20vw;
+    width: 18vw;
+    height: 15vh;
     border-radius: 20px;
     background-color: white;
     box-shadow: 5px 5px 5px rgb(230, 230, 230);
@@ -284,7 +292,7 @@ form span {
     margin-right: 15px;
     padding: 5px;
     width: 7vw;
-    height: 16vh; 
+    height: auto; 
 }
 
 .populaire a {
@@ -294,7 +302,7 @@ form span {
 
 .fa-chart-line {
     position: absolute;
-    top: 60px;
+    top: 45px;
     right: 20px;
     font-size: 1.5em;
     width: 40px;
@@ -305,7 +313,7 @@ form span {
     flex-direction: column;
     justify-content: space-around;
     width: 8vw;
-    height: 15vh;
+    height: auto;
 }
 
 .legendeux p {
@@ -392,7 +400,7 @@ form span {
 }
 
 .grand:hover {
-    border:3px double #0065FC;
+    border: 0 double #0065FC;
     color:  #0065FC;
 }
 
