@@ -327,6 +327,7 @@ form span {
     justify-content: space-between;
     width: 100%;
     height: auto;
+    background-color: yellow;
 }
 
 .sextuor h3 {
@@ -342,37 +343,42 @@ form span {
     display: flex;
     flex-wrap: wrap;
     float: left;
-    width: 21.5%;
-    height: 100%;
+    width: 16vw;
+    height: 45vh;
     object-fit: contain;
     border: 1px solid rgb(240, 240, 240);
     box-shadow: 5px 5px 5px rgb(230, 230, 230);
     border-radius: 30px;
+    margin-bottom: 30px;
+
 }
 
 .duo {
     display: flex;
     flex-wrap: wrap;
-    align-content: space-around;
+    align-content: space-between;
     justify-content: center;
     object-fit: contain;
     margin: 5px;
-    width: 23%;
-    height: 100%;
-}
+    width: 20vw;
+    height: auto;
+    margin-top: 0;
+} 
 
-.deux {
+.deux, .pom, .fri {
     object-fit: contain;
-    height: 80%;
+    width: 17vw;
+    height: auto;
     border: 1px solid rgb(240, 240, 240);
     box-shadow: 5px 5px 5px rgb(230, 230, 230);
     border-radius: 25px;
     background-color: white;
     margin-top: 0;
-    margin-bottom: 45px;
+    margin-bottom: 30px;
+    background-color: pink;
 }
 
-.grand h4, .deux h4 {
+.grand h4, .duo h4 {
     margin-left: 20px;
 }
 /* effet */
@@ -380,8 +386,8 @@ form span {
 .grand img {
     object-fit: cover;
     border-radius: 25px 25px 0 0;
-    width: 16.9vw;
-    height: 40vh;
+    width: 16vw;
+    height: 38vh;
     box-shadow: 0 15px 30px 0 rgba(0,0,0,0.11);
 }
 
@@ -394,11 +400,25 @@ form span {
     transform: rotate(5deg);
 }
 
-.duo img {
+.deux img {
     object-fit: cover;
     border-radius: 25px 25px 0 0;
     width: 17vw;
-    height: 13.5vh;
+    height: 13vh;
+}
+
+.pom img {
+    object-fit: cover;
+    border-radius: 25px 25px 0 0;
+    width: 17vw;
+    height: 16vh;
+}
+
+.fri img {
+    object-fit: cover;
+    border-radius: 25px 25px 0 0;
+    width: 17vw;
+    height: 10vh;
 }
 
 /* Footer*/

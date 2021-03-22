@@ -1,5 +1,5 @@
 
-/* // Medium devices (tablets, 768px and up) */
+/* // Medium devices (tablets, 769px and up) */
 @media (min-width: 769px) and (max-width: 1025px) { 
     @font-face {
         font-family: 'Raleway';
@@ -86,7 +86,7 @@
 
     #Loupe form {
         width: 50vw;
-        height: 4vh;
+        height: 5vh;
         margin: 0;
         padding-top: 10px;
         display: flex;
@@ -100,7 +100,7 @@
 
     .recherche {
         width: 25vw;
-        height: 4vh;
+        height: 5vh;
         border: none;
         color: rgb(65, 65, 65);
         font-size: 1em;
@@ -122,10 +122,14 @@
         border-radius: 0 12px 12px 0;
         font-size: 1.2em;
         width: 5vw;
-        height: 4vh;
+        height: 5vh;
+    }
+
+    .submit:hover {
+        cursor: inherit;
     }
     
-    /* Filtreq */
+    /* Filtres */
     #Filtre a:hover {
         color: inherit;
     }
@@ -137,7 +141,6 @@
         width: 60vw;
         padding: 15px;
         margin-bottom: 25px;
-        align-items: center;
     }
 
     .fa-chart-line {
@@ -162,14 +165,71 @@
     
     .populaire a {
         padding-bottom: 10px;
+        display: flex;
+        justify-content: center;
     }
+
     .Images3 {
         width: 18vw;
         height: 16vh; 
     }
     
+    /* hebergement */
+    .grandediv {
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
 
-    /* Hebergement */
+    
+    .heber h3 {
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+
+    .heber h4 {
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-size: 1.2em;
+        font-weight: bold;
+        padding: 0;
+    }
+
+    .heber {
+         flex: 1;
+         order: 1;
+         width: 60vw;
+         margin-top: 10px;
+         margin-right: 0;
+         padding: 15px;
+         border: 0;
+         background-color: #F2F2F2;
+     }
+
+     .six {
+         padding: 0;
+         margin: 0;
+         flex-wrap: wrap;
+         justify-content: baseline;
+     }
+
+     .card {
+         width: 50vw;
+         box-shadow: 5px rgb(230, 230, 230);
+     }
+
+     .card p {
+         font-size: 1em;
+     }
+
+     .Images, .Images2 {
+        object-fit: cover;
+        border-radius: 20px 20px 0 0;
+        width: 50vw;
+        height: 16vh;
+    }
+
+    /* Hebergement
     .grandediv {
         flex-direction: column;
         flex-wrap: wrap;
@@ -208,6 +268,74 @@
         border-radius: 20px 20px 0 0;
         width: 22vw;
         height: 10vh;
+    }*/
+    
+    /* Activite */
+    .sextuor {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+    }
+
+    .sextuor a {
+        height: 22vh;
+    }
+
+    .sextuor .duo h4 {
+        position: relative;
+        top: -10px;
+    }
+
+    .grand {
+        flex-flow: column wrap;
+        width: 30vw;
+        height: 45vh;
+        margin-right: 25px;
+        margin-bottom: 25px;
+        margin-top: 15px;
+    }
+    
+    .duo {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 35vw;
+        height: auto;
+        margin-top: 15px;
+    }
+
+    .deux, .pom, .fri {
+        width: 30vw;
+        height: 19vh;
+        object-fit: contain;
+        border: 1px solid rgb(240, 240, 240);
+        box-shadow: 5px 5px 5px rgb(230, 230, 230);
+        border-radius: 25px;
+        background-color: white;
+        margin-top: 0;
+        margin-bottom: 45px;
+    }
+    
+    .grand img {
+        width: 30vw;
+        height: 38vh;
+        box-shadow: none;
+        border-radius: none;
+    }
+
+    .duo img {
+        width: 30vw;
+        height: 13vh;
+    }
+
+    .grand:hover {
+        border: none;
+        color: none;
+    }
+    
+    .deux:hover {
+        transform: none;
     }
 
     /* Footer */
@@ -239,60 +367,6 @@
     
     #Charte, #Contact {
         padding-left: 0;
-    }
-    
-    /* Activite */
-    .sextuor {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        width: 100%;
-        height: auto;
-    }
-
-    .sextuor a {
-        height: 22vh;
-    }
-
-    .grand {
-        flex-flow: column wrap;
-        width: 30vw;
-        height: 44vh;
-        margin-right: 25px;
-        margin-bottom: 25px;
-    }
-    
-    .duo {
-        flex-wrap: wrap;
-        justify-content: space-around;
-        width: 35vw;
-        height: 45vh;
-    }
-
-    .deux {
-        width: 30vw;
-        height: 17vw;
-    }
-    
-    .grand img {
-        width: 30vw;
-        height: 37vh;
-        box-shadow: none;
-        border-radius: none;
-    }
-
-    .duo img {
-        width: 30vw;
-        height: 13vh;
-    }
-
-    .grand:hover {
-        border: none;
-        color: none;
-    }
-    
-    .deux:hover {
-        transform: none;
     }
 
     /*
