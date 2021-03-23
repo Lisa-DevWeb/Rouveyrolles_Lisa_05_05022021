@@ -170,7 +170,6 @@ form span {
     height: 30px;
 }
 
-
 /* 500 logements */
 .fa-info {
     text-align: center;
@@ -189,6 +188,7 @@ form span {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    justify-content: nowrap;
     object-fit: contain;
     width: 100%;
     height: auto;
@@ -199,8 +199,10 @@ form span {
     border-radius: 20px;
     background-color:  #F2F2F2;
     padding: 30px;
+    flex-basis: 60%;
     width: 50vw;
     height: auto;
+    background-color: yellowgreen;
 }
 
 .six {
@@ -215,6 +217,7 @@ form span {
 }
 
 .card {
+    flex-basis: 25%;
     width: 13vw;
     height: auto;
     margin: 10px;
@@ -262,6 +265,7 @@ form span {
     justify-content: space-around;
     align-items: center;
     position: relative;
+    flex-basis: 30%;
     width: 23vw;
     height: auto;
     padding: 0;
@@ -271,7 +275,7 @@ form span {
 
 .titre {
     width: 85%;
-    display: flex
+    display: flex;
 }
 
 .carte {
@@ -420,7 +424,6 @@ form span {
         flex-direction: row;
         justify-content: space-around;
         padding-top: 20px;
-        margin-top: 30px;
         background-color: #F2F2F2;
     }
 
