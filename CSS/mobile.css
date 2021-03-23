@@ -402,7 +402,7 @@
         color: none;
     }
     
-    .deux:hover {
+    .deux:hover, .grand:hover, .pom:hover, .fri:hover {
         transform: none;
     }
 

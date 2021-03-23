@@ -289,13 +289,8 @@
         width: 30vw;
         height: 13vh;
     }
-
-    .grand:hover {
-        border: none;
-        color: none;
-    }
     
-    .deux:hover {
+    .deux:hover, .grand:hover, .pom:hover, .fri:hover {
         transform: none;
     }
 
