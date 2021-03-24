@@ -202,7 +202,7 @@
     }
 
     
-    .heber h3, .act h3 {
+    .heber h3,.heber h5, .act h3 {
         position: relative;
         left: 44px;
         width: 77%;
@@ -264,7 +264,7 @@
     }
 
     .sextuor a {
-        height: 22vh;
+        height: 23vh;
     }
 
     .sextuor .duo h4 {

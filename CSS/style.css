@@ -204,6 +204,7 @@ form span {
     height: auto;
 }
 
+
 .six {
     display: flex;
     flex-direction: row;
@@ -233,7 +234,7 @@ form span {
     top: -10px;
 }
 
-.card .legende, .fa-star {
+.card .legende, .card .fa-star {
     position: relative;
     top: -10px;
     left: 10px;
@@ -282,7 +283,7 @@ form span {
 
 .carte {
     display: flex;
-    width: 18vw;
+    width: 18.5vw;
     height: 15.5vh;
     border-radius: 20px;
     background-color: white;
@@ -299,6 +300,15 @@ form span {
     display: flex;
     flex-wrap: nowrap;
     font-size: 1.5vh;
+    margin-left: 10px;
+}
+
+span .fa-star {
+   color: gainsboro;
+}
+
+.legendeux .fa-star {
+    display: flex;
 }
 
 .Images3 {
@@ -326,7 +336,7 @@ form span {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    width: 8vw;
+    width: 9vw;
     height: auto;
 }
 
