@@ -142,6 +142,10 @@
         padding: 15px;
         margin-bottom: 25px;
     }
+    
+    .titre {
+        width: 85%;
+    }
 
     .titre h3 {
         font-size: 1.1em;

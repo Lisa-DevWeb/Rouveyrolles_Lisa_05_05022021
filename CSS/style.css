@@ -261,8 +261,8 @@ form span {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
-    justify-content: space-around;
     align-items: center;
+    justify-content: space-around;
     position: relative;
     flex-basis: 30%;
     width: 24vw;
@@ -273,9 +273,12 @@ form span {
 }
 
 .titre {
-    width: 85%;
+    width: 88%;
     height: auto;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1vh;
 }
 
 .carte {
@@ -286,6 +289,17 @@ form span {
     background-color: white;
     box-shadow: 5px 5px 5px rgb(230, 230, 230);
     background-color: chartreuse;
+    margin-bottom: 4vh;
+}
+
+.texti {
+    margin-left: 10px;
+}
+
+.etoile {
+    display: flex;
+    flex-wrap: nowrap;
+    font-size: 1.5vh;
 }
 
 .Images3 {
@@ -293,7 +307,6 @@ form span {
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     background-color: white;
-    margin-right: 15px;
     padding: 5px;
     width: 7vw;
     height: auto; 
@@ -305,12 +318,10 @@ form span {
 }
 
 .fa-chart-line {
-    position: absolute;
-    top: 45px;
-    right: 15px;
     font-size: 1.5em;
-    width: 40px;
-}
+    width: 1.6vw;
+    padding-right: 3px;
+} 
 
 .legendeux {
     display: flex;
