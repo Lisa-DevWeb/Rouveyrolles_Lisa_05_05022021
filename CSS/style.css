@@ -198,11 +198,10 @@ form span {
     border: 1px solid  #F2F2F2;
     border-radius: 20px;
     background-color:  #F2F2F2;
-    padding: 30px;
-    flex-basis: 60%;
+    padding: 15px;
+    flex-basis: 64%;
     width: 50vw;
     height: auto;
-    background-color: yellowgreen;
 }
 
 .six {
@@ -266,15 +265,16 @@ form span {
     align-items: center;
     position: relative;
     flex-basis: 30%;
-    width: 23vw;
+    width: 24vw;
     height: auto;
-    padding: 0;
     border-radius: 20px;
     background-color:  #F2F2F2;
+    background-color: cadetblue;
 }
 
 .titre {
     width: 85%;
+    height: auto;
     display: flex;
 }
 
@@ -285,6 +285,7 @@ form span {
     border-radius: 20px;
     background-color: white;
     box-shadow: 5px 5px 5px rgb(230, 230, 230);
+    background-color: chartreuse;
 }
 
 .Images3 {
@@ -306,7 +307,7 @@ form span {
 .fa-chart-line {
     position: absolute;
     top: 45px;
-    right: 20px;
+    right: 15px;
     font-size: 1.5em;
     width: 40px;
 }

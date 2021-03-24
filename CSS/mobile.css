@@ -219,7 +219,7 @@
     }
 
     .titre {
-        width: 95%;
+        width: 100%;
     }
 
     .populaire {
@@ -228,6 +228,11 @@
          width: 83vw;
          padding: 15px;
          margin-bottom: 25px;
+         display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
      }
 
      .populaire a {
@@ -278,7 +283,7 @@
          padding: 5px;
          margin-left: 0;
          width: 80vw;
-         height: 18vh;
+         height: auto;
          object-fit: contain;
      }
 
