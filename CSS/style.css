@@ -269,7 +269,6 @@ form span {
     height: auto;
     border-radius: 20px;
     background-color:  #F2F2F2;
-    background-color: cadetblue;
 }
 
 .titre {
@@ -284,16 +283,16 @@ form span {
 .carte {
     display: flex;
     width: 18vw;
-    height: 15vh;
+    height: 15.5vh;
     border-radius: 20px;
     background-color: white;
     box-shadow: 5px 5px 5px rgb(230, 230, 230);
-    background-color: chartreuse;
     margin-bottom: 4vh;
 }
 
 .texti {
     margin-left: 10px;
+    margin-top: -18px;
 }
 
 .etoile {
@@ -350,6 +349,7 @@ form span {
     justify-content: space-between;
     width: 100%;
     height: auto;
+    padding-bottom: 18px;
 }
 
 .sextuor a {
@@ -394,7 +394,10 @@ form span {
 
 .grand h4, .duo h4 {
     margin-left: 20px;
+    margin-top: 15px;
+    font-size: 0.9vw;
 }
+
 /* effet */
 
 .grand img {

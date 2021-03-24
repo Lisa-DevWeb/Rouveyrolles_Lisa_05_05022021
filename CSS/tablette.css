@@ -315,6 +315,12 @@
         transform: none;
     }
 
+    .grand h4, .duo h4 {
+        margin-left: 20px;
+        margin-top: 18px;
+        font-size: 1.5vw;
+    }
+
     /* Footer */
     #Bas {
         display: flex;

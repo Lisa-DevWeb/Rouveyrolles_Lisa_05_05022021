@@ -258,7 +258,7 @@
     .legendeux p { 
         position: relative;
         margin-top: 5px;
-        font-size: 1em;
+        font-size: 1.1em;
     }
 
     .legendeux {
@@ -266,6 +266,7 @@
         object-fit: contain;
         flex-direction: column;
         margin-top: 0;
+        font-size: 0.9em;
         width: 42vw;
         height: 25vh;
         height: auto;
@@ -352,7 +353,7 @@
         flex-flow: column wrap;
         align-items: center;
         width: 93vw;
-        padding-bottom: 20px;
+        padding-bottom: 18px;
     }
 
     .sextuor h4 {
@@ -415,7 +416,12 @@
         width: 85vw;
         height: 13vh;
     }
-
+    
+    .grand h4, .duo h4 {
+        margin-left: 20px;
+        margin-top: 18px;
+        font-size: 3vw;
+    }
     /* Footer */
 
     #Bas {
