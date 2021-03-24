@@ -20,7 +20,7 @@ header {
 }
 
 #Logo {
-    width: 60%;
+    width: 80%;
 }
 
 nav {
@@ -36,7 +36,7 @@ nav ul {
 header a {
     text-decoration: none;
     color: #0e0e0e;
-    font-size: 0.8em;
+    font-size: 0.9em;
 }
 
 nav ul li, #Inscrire {
@@ -390,6 +390,16 @@ form span {
     border-radius: 25px;
     background-color: white;
     margin-top: 0;
+}
+
+.pom {
+    width: 17vw;
+    height: 23vh;
+}
+
+.fri {
+    width: 17vw;
+    height: 16vh;
 }
 
 .grand h4, .duo h4 {

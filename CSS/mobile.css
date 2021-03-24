@@ -55,23 +55,29 @@
 
     .Menu li {
         display: flex;
-        justify-content: center;
+        text-align: center;
         flex: 2;
         order: 2;
         height: auto;
         padding-top: 10px;
-        padding-bottom: 10px;
-        border-bottom: 4px solid #0065FC;
+        width: 100%;
     }
 
     .Menu a {
         color: #0065FC;
+        width: 100%;
+        padding-bottom: 10px;
     }
 
-    #activite {
-        border-bottom: 2px solid rgb(236, 236, 236);
+    .beber {
+        border-bottom: 3px solid #0065FC;
+        margin-left: -29px;
     }
-     
+
+    .vivi {
+        border-bottom: 3px solid #F2F2F2;
+    }
+
     /*Section de recherche*/
 
     h1 {
@@ -349,6 +355,17 @@
     }
 
     /* Activites a Marseille */
+    .act {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .act h3 {
+        width: 95%;
+        padding-left: 10px;
+    }
+
     .sextuor {
         flex-flow: column wrap;
         align-items: center;
@@ -420,7 +437,7 @@
     .grand h4, .duo h4 {
         margin-left: 20px;
         margin-top: 18px;
-        font-size: 3vw;
+        font-size: 1.1em;
     }
     /* Footer */
 
