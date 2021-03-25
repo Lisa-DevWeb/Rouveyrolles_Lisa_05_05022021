@@ -228,12 +228,11 @@
         padding: 0;
         margin: 0;
         flex-wrap: wrap;
-        justify-content: baseline;
     }
 
     .card {
         width: 50vw;
-        box-shadow: 5px rgb(230, 230, 230);
+        box-shadow: 5px grey;
     }
 
     .card p {
@@ -302,8 +301,6 @@
     .grand img {
         width: 27vw;
         height: 38vh;
-        box-shadow: none;
-        border-radius: none;
     }
 
     .duo img {
