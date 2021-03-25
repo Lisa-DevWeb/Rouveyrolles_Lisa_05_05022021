@@ -202,13 +202,13 @@ form span {
 }
 
 .heber {
-    border: 1px solid  #F2F2F2;
+    border: 1px solid #F2F2F2;
     border-radius: 20px;
-    background-color:  #F2F2F2;
     padding: 15px;
     flex-basis: 64%;
     width: 50vw;
     height: auto;
+    background-color: #F2F2F2;
 }
 
 
@@ -231,8 +231,8 @@ form span {
     object-fit: contain;
     border: 5px solid white;
     border-radius: 25px;
+    box-shadow: 5px gainsboro;
     background-color: white;
-    box-shadow: 5px 5px 5px gainsboro;
 }
 
 .card h4 {

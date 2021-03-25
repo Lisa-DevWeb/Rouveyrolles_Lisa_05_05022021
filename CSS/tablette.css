@@ -145,7 +145,7 @@
         display: flex;
         margin-bottom: 0;
     }
-    
+
     /* Les plus populaires */
     .populaire {
         flex: 2;
@@ -243,7 +243,7 @@
 
     .card {
         width: 50vw;
-        box-shadow: 5px gainsboro;
+        box-shadow: 5px grey;
     }
 
     .card p {
