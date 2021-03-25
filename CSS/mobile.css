@@ -81,13 +81,13 @@
     /*Section de recherche*/
 
     h1 {
-        font-size: 1.4em;
+        font-size: 1.2em;
         padding-left: 15px;
-        width: 80%;
+        width: 70%;
     }
 
     h2 {
-        font-size: 1.2em;
+        font-size: 1em;
         font-weight: normal;
         padding-bottom: 5px;
         padding-left: 15px;
@@ -257,18 +257,19 @@
 
     .texti, .etoile {
         margin-left: 20px;
+        width: 35.5vw;
     }
 
     .legendeux h4 {
-        font-size: 1.2em;
-        padding-top: 8px;
+        font-size: 1em;
+        padding-top: 0;
         margin-bottom: 0;
     }
 
     .legendeux p { 
         position: relative;
-       padding-top: 15px;
-        font-size: 1.1em;
+        padding-top: 15px;
+        font-size: 1em;
     }
 
     .legendeux {
@@ -277,7 +278,7 @@
         flex-direction: column;
         margin-top: 0;
         font-size: 0.9em;
-        width: 42vw;
+        width: 50vw;
         height: auto;
     }
 
@@ -291,14 +292,14 @@
          margin: 8px;
          padding: 5px;
          margin-left: 0;
-         width: 80vw;
-         height: 16vh;
+         width: 78vw;
+         height: 17vh;
          object-fit: contain;
      }
 
      .Images3 {
         width: 30vw;
-        height: 16vh; 
+        height: 17vh; 
         padding: 0;
      }
     
@@ -317,7 +318,7 @@
     .heber h4 {
         margin-top: 15px;
         margin-bottom: 10px;
-        font-size: 1.2em;
+        font-size: 1em;
         font-weight: bold;
         padding: 0;
     }
@@ -395,13 +396,13 @@
         margin-bottom: 25px;
         margin-top: 11px;
         width: 85vw;
-        height: 20vh;
+        height: 19vh;
         border: 0;
     }
      
     .grand img {
         width: 85vw;
-        height: 13vh;
+        height: 12vh;
     }
 
     .duo {
@@ -418,12 +419,13 @@
     
     .deux, .pom, .fri {
         width: 85vw;
-        height: 20vh;
+        height: 19vh;
         border-radius: 25px;
         padding: 0;
         margin: 0;
         background-color: white;
         object-fit: contain;
+        background-color: orange;
     }
 
     .grand:hover {
@@ -437,12 +439,12 @@
 
     .duo img {
         width: 85vw;
-        height: 13vh;
+        height: 12vh;
     }
     
     .grand h4, .duo h4 {
         margin-left: 20px;
-        margin-top: 18px;
+        margin-top: 12px;
         font-size: 1.1em;
     }
     /* Footer */
