@@ -12,7 +12,7 @@
     margin: auto;
 } 
 
-/*------------------- Header -------------------*/
+/* Header */
 
 header {
     display: flex;
@@ -20,7 +20,7 @@ header {
 }
 
 #Logo {
-    width: 60%;
+    width: 80%;
 }
 
 nav {
@@ -36,7 +36,7 @@ nav ul {
 header a {
     text-decoration: none;
     color: #0e0e0e;
-    font-size: 0.8em;
+    font-size: 0.9em;
 }
 
 nav ul li, #Inscrire {
@@ -117,6 +117,10 @@ form span {
     border: none;
 }
 
+.submit:hover {
+        cursor: pointer;
+    }
+
 /* Filtres */
 
 #Filtre {
@@ -126,6 +130,17 @@ form span {
     display: flex;
     align-items: center;
     flex-flow: row wrap;
+}
+
+.logements {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logements h4 {
+    padding-left: 12px;
+    display: flex;
+    align-items: center;
 }
 
 #Filtre li {
@@ -156,12 +171,10 @@ form span {
     font-size: 10px;
     color:  #0065FC;
     background-color: #DEEBFF;
-    border: 1px solid #DEEBFF;
     border-radius: 50px;
     width: 30px;
     height: 30px;
 }
-
 
 /* 500 logements */
 .fa-info {
@@ -177,27 +190,30 @@ form span {
 }
 
 /* Hebergement */
-.Grandediv {
+.grandediv {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
     object-fit: contain;
     width: 100%;
     height: auto;
 }
 
-.Conteneur {
-    margin-right: 45px;
-    border: 1px solid  #F2F2F2;
+.heber {
     border-radius: 20px;
-    background-color:  #F2F2F2;
-    padding: 30px;
-    width: 52vw;
+    padding: 15px;
+    flex-basis: 64%;
+    width: 50vw;
     height: auto;
+    background-color: #F2F2F2;
 }
+
 
 .six {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
 
 .six a {
@@ -205,26 +221,33 @@ form span {
     color: black;
 }
 
-.Card {
-    width: 14vw;
+.card {
+    flex-basis: 25%;
+    width: 13vw;
     height: auto;
+    margin: 10px;
     padding: 5px;
-    margin: 15px;
     object-fit: contain;
     border-radius: 25px;
+    box-shadow: 5px 5px 5px gainsboro;
     background-color: white;
-    box-shadow: 5px 5px 5px rgb(230, 230, 230);
 }
 
-.Card h4, .legende, .fa-star {
+.card h4 {
+    position: relative;
+    left: 10px;
+    top: -10px;
+    margin-bottom: 0;
+}
+
+.card .legende, .card .fa-star {
     position: relative;
     top: -10px;
     left: 10px;
-    padding: -20px;
     line-height : 0em;
 }
 
-.Card p, .fa-star {
+.card p, .fa-star {
     font-size: 0.9em;
 }
 
@@ -235,31 +258,91 @@ form span {
 .Images, .Images2 {
     object-fit: cover;
     border-radius: 20px 20px 0 0;
-    width: 14vw;
-    height: 14vh;
+    width: 13vw;
+    height: 12vh;
 }
 
 /* Les plus populaires */
-.Conteneur2 {
+.populaire {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
+    align-items: center;
     justify-content: space-around;
-    width: 20vw;
+    position: relative;
+    flex-basis: 30%;
+    width: 24vw;
     height: auto;
-    padding: 25px;
     border-radius: 20px;
     background-color:  #F2F2F2;
 }
 
-.Card2 {
+.titre {
+    width: 88%;
+    height: auto;
     display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    width: 19vw;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1vh;
+}
+
+.fa-chart-line {
+    font-size: 1.5em;
+    width: 1.6vw;
+    padding-right: 3px;
+}
+
+.populaire a {
+    text-decoration: none;
+    color: black;
+} 
+
+.carte {
+    display: flex;
+    width: 18.5vw;
+    height: 15.5vh;
     border-radius: 20px;
     background-color: white;
-    box-shadow: 5px 5px 5px rgb(230, 230, 230);
+    box-shadow: 5px 5px 5px gainsboro;
+    margin-bottom: 4vh;
+}
+
+.legendeux .fa-star {
+    display: flex;
+}
+
+.legendeux {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 9vw;
+    height: auto;
+}
+
+.legendeux p {
+    position: relative;
+    margin-top: -25px;
+    padding-top: 0;
+}
+
+.legendeux, .fa-star {
+    font-size: 0.9em;
+}
+
+.texti {
+    margin-left: 10px;
+    margin-top: -18px;
+}
+
+.etoile {
+    display: flex;
+    flex-wrap: nowrap;
+    font-size: 1.5vh;
+    margin-left: 10px;
+}
+
+span .fa-star {
+   color: gainsboro;
 }
 
 .Images3 {
@@ -267,144 +350,128 @@ form span {
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     background-color: white;
-    margin-right: 15px;
     padding: 5px;
     width: 7vw;
-    height: 16vh; 
+    height: auto; 
 }
-
-.titre {
-    display: flex;
-    justify-content: space-between;
-}
-
-.Conteneur2 a {
-    text-decoration: none;
-    color: black;
-}
-
-.fa-chart-line {
-    position: relative;
-    top: 25px;
-    right: 25px;
-    font-size: 1.5em;
-}
-
-.legende2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 8vw;
-    height: 15vh;
-}
-
-.legende2 p {
-    position: relative;
-    margin-top: -25px;
-    padding-top: 0;
-}
-
-.legende2, .fa-star {
-    font-size: 0.9em;
-}
-
 /* Activites a Marseille */
 
-.Conteneur3 {
+.sextuor {
     display: flex;
     flex-flow: row wrap;
     object-fit: contain;
     justify-content: space-between;
     width: 100%;
     height: auto;
+    padding-bottom: 18px;
 }
 
-.Conteneur3 a {
+.sextuor a {
     color: black;
     text-decoration: none;
 }
 
-.G1 {
+.grand {
     display: flex;
     flex-wrap: wrap;
     float: left;
-    width: 21.5%;
-    height: 100%;
+    width: 16vw;
+    height: 45vh;
     object-fit: contain;
-    border: 1px solid rgb(240, 240, 240);
-    box-shadow: 5px 5px 5px rgb(230, 230, 230);
+    border: 1px solid white;
+    box-shadow: 5px 5px 5px gainsboro;
     border-radius: 30px;
+}
+
+.duo {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: center;
+    object-fit: contain;
+    margin: 5px;
+    width: 17vw;
+    height: auto;
+    margin-top: 0;
+} 
+
+.pom {
+    width: 17vw;
+    height: 23vh;
+}
+
+.fri {
+    width: 17vw;
+    height: 16vh;
+}
+
+.deux, .pom, .fri {
+    object-fit: contain;
+    width: 17vw;
+    height: auto;
+    border: 1px solid white;
+    box-shadow: 5px 5px 5px gainsboro;
+    border-radius: 25px;
+    background-color: white;
+    margin-top: 0;
+}
+
+.grand h4, .duo h4 {
+    margin-left: 20px;
+    margin-top: 15px;
+    font-size: 0.9vw;
 }
 
 /* effet */
 
-.G2 {
-    display: flex;
-    flex-wrap: wrap;
-    align-content: space-around;
-    justify-content: center;
-    object-fit: contain;
-    margin: 5px;
-    width: 23%;
-    height: 100%;
-}
-
-.deux {
-    object-fit: contain;
-    height: 80%;
-    border: 1px solid rgb(240, 240, 240);
-    box-shadow: 5px 5px 5px rgb(230, 230, 230);
-    border-radius: 25px;
-    background-color: white;
-    margin-top: 0;
-    margin-bottom: 45px;
-}
-
-.G1 h4, .deux h4 {
-    margin-left: 20px;
-}
-
-.G1 img {
+.grand img {
     object-fit: cover;
     border-radius: 25px 25px 0 0;
-    width: 16.9vw;
-    height: 40vh;
-    box-shadow: 0 15px 30px 0 rgba(0,0,0,0.11);
+    width: 16vw;
+    height: 39vh;
+    box-shadow: 0 15px 30px 0 gainsboro;
 }
 
-.G1:hover {
-    border:3px double #0065FC;
-    color:  #0065FC;
-}
-
-.deux:hover {
+.deux:hover, .grand:hover, .pom:hover, .fri:hover {
     transform: rotate(5deg);
 }
 
-.G2 img {
+.deux img {
     object-fit: cover;
     border-radius: 25px 25px 0 0;
     width: 17vw;
-    height: 13.5vh;
+    height: 13vh;
 }
 
-/* Footer */
+.pom img {
+    object-fit: cover;
+    border-radius: 25px 25px 0 0;
+    width: 17vw;
+    height: 16vh;
+}
 
+.fri img {
+    object-fit: cover;
+    border-radius: 25px 25px 0 0;
+    width: 17vw;
+    height: 10vh;
+}
 
+/* Footer*/
 #Bas {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     padding-top: 20px;
     background-color: #F2F2F2;
+    }
+
+#Propos {
+    margin-left: -30px;
 }
 
 footer h4 {
     text-indent: 40px;
-}
-
-footer a {
-    text-decoration: none;
-    color: black;
 }
 
 footer li {
@@ -412,6 +479,11 @@ footer li {
     line-height: 30px;
 }
 
+footer a {
+    text-decoration: none;
+    color: black;
+}
+    
 #Charte, #Contact {
-    padding-left: 170px;
+    padding-left: 0;
 }
