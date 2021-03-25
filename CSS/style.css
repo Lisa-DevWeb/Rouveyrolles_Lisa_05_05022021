@@ -132,10 +132,15 @@ form span {
     flex-flow: row wrap;
 }
 
-#Filtre p {
+.logements {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logements h4 {
     padding-left: 12px;
-    font-weight: bold;
-    font-size: 1em;
+    display: flex;
+    align-items: center;
 }
 
 #Filtre li {

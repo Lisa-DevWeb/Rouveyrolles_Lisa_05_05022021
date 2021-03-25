@@ -134,6 +134,18 @@
         color: inherit;
     }
 
+    .logements {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .logements h4 {
+        padding-left: 12px;
+        display: flex;
+        margin-bottom: 0;
+    }
+    
     /* Les plus populaires */
     .populaire {
         flex: 2;
@@ -206,7 +218,6 @@
         order: 1;
         width: 60vw;
         padding: 15px;
-        background-color: #F2F2F2;
     }
     
     .heber h3,.heber h5, .act h3 {
@@ -232,7 +243,7 @@
 
     .card {
         width: 50vw;
-        box-shadow: 5px grey;
+        box-shadow: 5px gainsboro;
     }
 
     .card p {

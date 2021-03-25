@@ -160,6 +160,10 @@
         padding-left: 10px;
     }
 
+    .logements h4 {
+        margin-bottom: 0;
+    }
+
     #Filtre {
         width: 100%;
         height: auto;
@@ -199,7 +203,6 @@
         width: 40px;
         height: 40px;
     }
-
     /* 500 logements */
     .fa-info {
         font-size: 15px;
