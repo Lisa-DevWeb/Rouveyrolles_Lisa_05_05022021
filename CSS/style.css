@@ -12,7 +12,7 @@
     margin: auto;
 } 
 
-/*------------------- Header -------------------*/
+/* Header */
 
 header {
     display: flex;
@@ -117,7 +117,7 @@ form span {
     border: none;
 }
 
- .submit:hover {
+.submit:hover {
         cursor: pointer;
     }
 
@@ -281,6 +281,17 @@ form span {
     padding-top: 1vh;
 }
 
+.fa-chart-line {
+    font-size: 1.5em;
+    width: 1.6vw;
+    padding-right: 3px;
+}
+
+.populaire a {
+    text-decoration: none;
+    color: black;
+} 
+
 .carte {
     display: flex;
     width: 18.5vw;
@@ -291,46 +302,9 @@ form span {
     margin-bottom: 4vh;
 }
 
-.texti {
-    margin-left: 10px;
-    margin-top: -18px;
-}
-
-.etoile {
-    display: flex;
-    flex-wrap: nowrap;
-    font-size: 1.5vh;
-    margin-left: 10px;
-}
-
-span .fa-star {
-   color: gainsboro;
-}
-
 .legendeux .fa-star {
     display: flex;
 }
-
-.Images3 {
-    object-fit: cover;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-    background-color: white;
-    padding: 5px;
-    width: 7vw;
-    height: auto; 
-}
-
-.populaire a {
-    text-decoration: none;
-    color: black;
-}
-
-.fa-chart-line {
-    font-size: 1.5em;
-    width: 1.6vw;
-    padding-right: 3px;
-} 
 
 .legendeux {
     display: flex;
@@ -350,6 +324,31 @@ span .fa-star {
     font-size: 0.9em;
 }
 
+.texti {
+    margin-left: 10px;
+    margin-top: -18px;
+}
+
+.etoile {
+    display: flex;
+    flex-wrap: nowrap;
+    font-size: 1.5vh;
+    margin-left: 10px;
+}
+
+span .fa-star {
+   color: gainsboro;
+}
+
+.Images3 {
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: white;
+    padding: 5px;
+    width: 7vw;
+    height: auto; 
+}
 /* Activites a Marseille */
 
 .sextuor {
@@ -391,6 +390,16 @@ span .fa-star {
     margin-top: 0;
 } 
 
+.pom {
+    width: 17vw;
+    height: 23vh;
+}
+
+.fri {
+    width: 17vw;
+    height: 16vh;
+}
+
 .deux, .pom, .fri {
     object-fit: contain;
     width: 17vw;
@@ -400,16 +409,6 @@ span .fa-star {
     border-radius: 25px;
     background-color: white;
     margin-top: 0;
-}
-
-.pom {
-    width: 17vw;
-    height: 23vh;
-}
-
-.fri {
-    width: 17vw;
-    height: 16vh;
 }
 
 .grand h4, .duo h4 {
@@ -455,33 +454,33 @@ span .fa-star {
 
 /* Footer*/
 #Bas {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        padding-top: 20px;
-        background-color: #F2F2F2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 20px;
+    background-color: #F2F2F2;
     }
 
-    footer h4 {
-        text-indent: 40px;
-    }
+#Propos {
+    margin-left: -30px;
+}
+
+footer h4 {
+    text-indent: 40px;
+}
+
+footer li {
+    list-style-type: none;  
+    line-height: 30px;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
     
-    footer a {
-        text-decoration: none;
-        color: black;
-    }
-    
-    footer li {
-        list-style-type: none;  
-        line-height: 30px;
-    }
-    
-    #Propos {
-        margin-left: -30px;
-    }
-    
-    #Charte, #Contact {
-        padding-left: 0;
-    }
+#Charte, #Contact {
+    padding-left: 0;
+}
 
 

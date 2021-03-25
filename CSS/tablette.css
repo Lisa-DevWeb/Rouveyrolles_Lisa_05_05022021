@@ -23,17 +23,6 @@
         padding-left: 15px;
         width: 10vw;
     }
-
-    header a {
-        font-size: 1em;
-    }
-    
-    nav a:hover {
-        padding-bottom: 0;
-        border-bottom: none;
-        padding-top: 0;
-        border-top: none;
-    }
     
     nav ul {
         list-style-type: none;
@@ -41,8 +30,19 @@
         justify-content: flex-end;
     }
 
+    header a {
+        font-size: 1em;
+    }
+
     #Inscrire { 
         padding-right: 25px;
+    }
+
+    nav a:hover {
+        padding-bottom: 0;
+        border-bottom: none;
+        padding-top: 0;
+        border-top: none;
     }
     
     /*Section de recherche*/
@@ -194,13 +194,20 @@
         height: auto; 
     }
     
-    /* hebergement */
+    /* Hebergement a M */
     .grandediv {
         flex-direction: column;
         flex-wrap: wrap;
         align-items: center;
     }
 
+    .heber {
+        flex: 1;
+        order: 1;
+        width: 60vw;
+        padding: 15px;
+        background-color: #F2F2F2;
+    }
     
     .heber h3,.heber h5, .act h3 {
         position: relative;
@@ -217,37 +224,29 @@
         font-size: 1.1em;
     }
 
-    .heber {
-         flex: 1;
-         order: 1;
-         width: 60vw;
-         padding: 15px;
-         background-color: #F2F2F2;
-     }
+    .six {
+        padding: 0;
+        margin: 0;
+        flex-wrap: wrap;
+        justify-content: baseline;
+    }
 
-     .six {
-         padding: 0;
-         margin: 0;
-         flex-wrap: wrap;
-         justify-content: baseline;
-     }
+    .card {
+        width: 50vw;
+        box-shadow: 5px rgb(230, 230, 230);
+    }
 
-     .card {
-         width: 50vw;
-         box-shadow: 5px rgb(230, 230, 230);
-     }
+    .card p {
+        font-size: 1em;
+    }
 
-     .card p {
-         font-size: 1em;
-     }
-
-     .Images, .Images2 {
+    .Images, .Images2 {
         object-fit: cover;
         border-radius: 20px 20px 0 0;
         width: 50vw;
         height: 16vh;
     }
-    /* Activite */
+    /* Activite a M */
     .act {
         display: flex;
         flex-direction: column;
@@ -312,22 +311,24 @@
         height: 13vh;
     }
 
-    .deux:hover, .grand:hover, .pom:hover, .fri:hover {
-        transform: none;
-    }
-
     .grand h4, .duo h4 {
         margin-left: 20px;
         margin-top: 18px;
         font-size: 1.5vw;
     }
 
+    .deux:hover, .grand:hover, .pom:hover, .fri:hover {
+        transform: none;
+    }
     /* Footer */
     #Bas {
-        display: flex;
         flex-direction: row;
         justify-content: space-around;
         background-color: #F2F2F2;
+    }
+
+    #Propos {
+        margin-left: -20px;
     }
     
     footer h4 {
@@ -342,10 +343,6 @@
     footer li {
         list-style-type: none;  
         line-height: 30px;
-    }
-    
-    #Propos {
-        margin-left: -20px;
     }
     
     #Charte, #Contact {
