@@ -226,8 +226,8 @@ form span {
     width: 13vw;
     height: auto;
     margin: 10px;
+    padding: 5px;
     object-fit: contain;
-    border: 5px solid white;
     border-radius: 25px;
     box-shadow: 5px 5px 5px gainsboro;
     background-color: white;
